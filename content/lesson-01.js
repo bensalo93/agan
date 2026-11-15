@@ -4,37 +4,39 @@ window.LESSONS['01'] = {
   id: '01',
   title: 'אנטומיה של האגן ורצפת האגן',
   subtitle: 'מהבטן ועד ארבע השכבות של רצפת האגן ותפקידיה',
-  intro: 'השיעור מבוסס על שתי מצגות הקורס: "אנטומיה" (יחידות 1 ו-3–6) ו"היכרות עם רצפת האגן" (יחידות 1–2 ו-7–8). התמונות מהמצגות לא שרדו בהמרה לטקסט. במקומן יש באתר שני סוגי איורים: איורים אנטומיים מ-Gray’s Anatomy (1918), שהם נחלת הכלל ובדקתי בכל אחד את התוויות שמוזכרות בכיתוב; ותרשימים שציירתי בעצמי, שמסומנים במסגרת מקווקוות כ"סכמה להמחשה בלבד". השלמות שאינן מופיעות במצגות לקוחות ממקורות אקדמיים, ומסומנות בהפניה נפרדת.',
+  intro: 'השיעור מבוסס על שתי מצגות הקורס: "אנטומיה" (יחידות 1 ו-3–⁠6) ו"היכרות עם רצפת האגן" (יחידות 1–⁠2 ו-7–⁠8). התמונות מהמצגות לא שרדו בהמרה לטקסט. במקומן יש באתר שני סוגי איורים: איורים אנטומיים מ-Gray’s Anatomy (1918), שהם נחלת הכלל, ובכל כיתוב מפורט אילו תוויות מופיעות באיור המקורי; ותרשימים שציירתי בעצמי, שמסומנים במסגרת מקווקוות כ"סכמה להמחשה בלבד". השלמות שאינן מופיעות במצגות לקוחות ממקורות אקדמיים, ומסומנות בהפניה נפרדת.',
   sourcesIntro: 'המספור כאן הוא המספור של כפתורי ההפניה בטקסט. המצגות לא מקושרות כי הן חומר פרטי של הקורס. כל השאר מקושרים למקור המקורי.',
 
   sources: {
     C1: { type: 'מצגת הקורס', title: 'מצגת "אנאטומיה"', cite: 'ליאת שיק-נוה, B.PT, M.PH. קורס שיקום רצפת אגן, 2026.', note: 'בקובץ שהומר אין מספרי שקפים, ולכן ההפניה היא לכותרת השקף.' },
     C2: { type: 'מצגת הקורס', title: 'מצגת "היכרות עם רצפת האגן"', cite: 'תמר שרון-סבן, MSc PT. קורס שיקום רצפת אגן, 2026.', note: 'מספרי השקפים חושבו לפי ספירת הכותרות התחתונות בקובץ שהומר. ייתכן הפרש קטן מהמספור בקובץ ה-PDF המקורי.' },
-    R1: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Pelvic Floor', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing. עדכון אחרון: 13 במאי 2026.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK482200/' },
-    R2: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Levator Ani Muscle', cite: 'Gowda SN, Bordoni B. StatPearls [Internet]. עדכון אחרון: 26 באוקטובר 2022.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK556078/' },
-    R3: { type: 'אטלס אנטומי מקוון (Kenhub)', title: 'Regions of the abdomen', cite: 'Sieroslawska A, MD. ביקורת: Grujičić R, MD. Kenhub, נבדק לאחרונה ב-8 בספטמבר 2023.', url: 'https://www.kenhub.com/en/library/anatomy/regions-of-the-abdomen' },
-    R4: { type: 'ספר לימוד מקוון (StatPearls)', title: 'Embryology, Sexual Development', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing. עדכון: 28 באוגוסט 2023.', url: 'https://www.statpearls.com/ArticleLibrary/viewarticle/28946' },
-    R5: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Female External Genitalia', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing. עדכון: 25 ביולי 2023.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK547703/' },
-    R6: { type: 'ספר לימוד מקוון (StatPearls)', title: 'Anatomy, Abdomen and Pelvis: Female Internal Genitals', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing.', url: 'https://www.statpearls.com/point-of-care/32330' },
-    R7: { type: 'ספר לימוד מקוון (StatPearls)', title: 'Anatomy, Abdomen and Pelvis: Broad Ligaments', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing. עדכון: 24 ביולי 2023.', url: 'https://www.statpearls.com/point-of-care/18628' },
-    R8: { type: 'ספר לימוד מקוון (StatPearls)', title: 'Anatomy, Abdomen and Pelvis: Cardinal Ligaments', cite: 'Clark KM, Pandya AM. StatPearls [Internet]. עדכון: 19 בספטמבר 2022.', url: 'https://www.statpearls.com/point-of-care/18911' },
-    R9: { type: 'ספר לימוד מקוון (StatPearls)', title: 'Anatomy, Abdomen and Pelvis: Uterus Round Ligament', cite: 'Chaudhry SR, Chaudhry K. StatPearls [Internet]. עדכון: 24 ביולי 2023.', url: 'https://www.statpearls.com/point-of-care/30898' },
-    R10: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Estimated Date of Delivery', cite: 'Edwards KI, Itzhak P. StatPearls [Internet]. עדכון אחרון: 10 בספטמבר 2024. הפרק מסומן כארכיוני.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK536986/' },
-    R11: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Bladder', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing. עדכון: 24 ביולי 2023.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK531465/' },
-    R12: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Bladder Detrusor Muscle', cite: 'Sam P, Nassereddin A, LaGrange CA. StatPearls [Internet]. עדכון: 8 באוגוסט 2023.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK482181/' },
-    R13: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Pelvic Floor Dysfunction', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing. עדכון: 26 ביוני 2023.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK559246/' },
+    R1: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Pelvic Floor', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing. Last update: May 13, 2026.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK482200/' },
+    R2: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Levator Ani Muscle', cite: 'Gowda SN, Bordoni B. StatPearls [Internet]. Last update: October 26, 2022.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK556078/' },
+    R3: { type: 'אטלס אנטומי מקוון (Kenhub)', title: 'Regions of the abdomen', cite: 'Sieroslawska A. Reviewer: Grujičić R. Kenhub. Last reviewed: September 8, 2023.', url: 'https://www.kenhub.com/en/library/anatomy/regions-of-the-abdomen' },
+    R4: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Embryology, Sexual Development', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing. Updated: August 28, 2023.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK557601/' },
+    R5: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Female External Genitalia', cite: 'Nguyen JD, Fakoya AO, Duong H. StatPearls [Internet]. Last update: February 15, 2025.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK547703/' },
+    R6: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Female Internal Genitals', cite: 'Hoare BS, Khan YS. StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK554601/' },
+    R7: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Broad Ligaments', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing. Updated: July 24, 2023.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK499943/' },
+    R8: { type: 'ספר לימוד מקוון (StatPearls, PubMed)', title: 'Anatomy, Abdomen and Pelvis: Cardinal Ligaments (Mackenrodts, Transverse Cervical, or Lateral Cervical Ligaments)', cite: 'Clark KM, Pandya AM. StatPearls [Internet]. Updated: September 19, 2022. PMID: 32491316.', url: 'https://pubmed.ncbi.nlm.nih.gov/32491316/' },
+    R9: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Uterus Round Ligament', cite: 'Chaudhry SR, Chaudhry K. StatPearls [Internet]. Updated: July 24, 2023.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK499970/' },
+    R10: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Estimated Date of Delivery', cite: 'Edwards KI, Itzhak P. StatPearls [Internet]. Last update: September 10, 2024.', note: 'הפרק מסומן ב-NCBI כארכיוני.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK536986/' },
+    R11: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Bladder', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing. Updated: July 24, 2023.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK531465/' },
+    R12: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Bladder Detrusor Muscle', cite: 'Sam P, Nassereddin A, LaGrange CA. StatPearls [Internet]. Updated: August 8, 2023.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK482181/' },
+    R13: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Pelvic Floor Dysfunction', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing. Updated: June 26, 2023.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK559246/' },
     R14: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Perineal Body', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK537345/' },
     R15: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Anatomy, Abdomen and Pelvis: Deep Perineal Space', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK538272/' },
     R16: { type: 'מאמר מחקר', title: 'Anatomic aspects of vaginal eversion after hysterectomy', cite: 'DeLancey JO. Am J Obstet Gynecol. 1992;166(6 Pt 1):1717-24. PMID: 1615980.', url: 'https://pubmed.ncbi.nlm.nih.gov/1615980/' },
     R17: { type: 'מאמר מחקר', title: 'Structural support of the urethra as it relates to stress urinary incontinence: the hammock hypothesis', cite: 'DeLancey JO. Am J Obstet Gynecol. 1994;170(6):1713-20. PMID: 8203431.', url: 'https://pubmed.ncbi.nlm.nih.gov/8203431/' },
     R18: { type: 'מאמר סקירה', title: 'Functional Anatomy of the Female Pelvic Floor', cite: 'Ashton-Miller JA, DeLancey JOL. Ann N Y Acad Sci. 2007;1101:266-96. doi:10.1196/annals.1389.034', url: 'https://doi.org/10.1196/annals.1389.034' },
     R19: { type: 'מאמר סקירה', title: 'Why do women have stress urinary incontinence?', cite: 'DeLancey JOL. Neurourol Urodyn. 2010;29(S1):S13-S17. PMCID: PMC3360542.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3360542/' },
-    R20: { type: 'אנציקלופדיה מקצועית (Physiopedia)', title: 'Overview of Female Pelvic Floor Muscle Anatomy and Physiology', cite: 'Physiopedia. ויקי מקצועי לפיזיותרפיה, לא עובר ביקורת עמיתים. כאן הוא משמש רק לרשימת התפקידים.', url: 'https://www.physio-pedia.com/Overview_of_Female_Pelvic_Floor_Muscle_Anatomy_and_Physiology' },
-    R21: { type: 'קריאה מומלצת במצגת (Physiopedia)', title: 'Pelvic Floor Anatomy', cite: 'Physiopedia. הקישור מופיע בשקף 63 כ"הסברים לקריאה בבית".', url: 'https://www.physio-pedia.com/Pelvic_Floor_Anatomy' },
-    G1166: { type: 'איור מספר לימוד (נחלת הכלל)', title: 'Gray’s Anatomy, איור 1166: Sagittal section of the lower part of a female trunk, right segment', cite: 'Gray H. Anatomy of the Human Body. מהדורה 20, בעריכת Lewis WH. Philadelphia: Lea & Febiger; 1918. איור 1166 (בספר מיוחס ל-Testut). הסריקה מאוחסנת ב-Wikimedia Commons כנחלת הכלל.', url: 'https://commons.wikimedia.org/wiki/File:Gray1166.png' },
-    G1161: { type: 'איור מספר לימוד (נחלת הכלל)', title: 'Gray’s Anatomy, איור 1161: Uterus and right broad ligament, seen from behind', cite: 'Gray H. Anatomy of the Human Body. מהדורה 20. Philadelphia: Lea & Febiger; 1918. איור 1161. מאוחסן ב-Wikimedia Commons כנחלת הכלל.', url: 'https://commons.wikimedia.org/wiki/File:Gray1161.png' },
-    G404: { type: 'איור מספר לימוד (נחלת הכלל)', title: 'Gray’s Anatomy, איור 404: Left Levator ani from within', cite: 'Gray H. Anatomy of the Human Body. מהדורה 20. Philadelphia: Lea & Febiger; 1918. איור 404, מאת Henry Vandyke Carter. מאוחסן ב-Wikimedia Commons כנחלת הכלל.', url: 'https://commons.wikimedia.org/wiki/File:Gray404.png' },
-    G408: { type: 'איור מספר לימוד (נחלת הכלל)', title: 'Gray’s Anatomy, איור 408: Muscles of the female perineum', cite: 'Gray H. Anatomy of the Human Body. מהדורה 20. Philadelphia: Lea & Febiger; 1918. איור 408. מאוחסן ב-Wikimedia Commons כנחלת הכלל. גם המצגת משתמשת באיור הזה (שקף 41, "Gray408").', url: 'https://commons.wikimedia.org/wiki/File:Gray408.png' }
+    R20: { type: 'אנציקלופדיה מקצועית (Physiopedia)', title: 'Overview of Female Pelvic Floor Muscle Anatomy and Physiology', cite: 'Physiopedia.', note: 'ויקי מקצועי לפיזיותרפיה שלא עובר ביקורת עמיתים. הוא משמש כאן רק לרשימת התפקידים.', url: 'https://www.physio-pedia.com/Overview_of_Female_Pelvic_Floor_Muscle_Anatomy_and_Physiology' },
+    R21: { type: 'קריאה מומלצת במצגת (Physiopedia)', title: 'Pelvic Floor Anatomy', cite: 'Physiopedia.', note: 'הקישור מופיע בשקף 63 כ"הסברים לקריאה בבית".', url: 'https://www.physio-pedia.com/Pelvic_Floor_Anatomy' },
+    R22: { type: 'מאמר סקירה', title: 'Urethral Function and Failure: A review of current knowledge of urethral closure mechanisms, how they vary, and how they are affected by life events', cite: 'Pipitone F, Sadeghi Z, DeLancey JOL. Neurourol Urodyn. 2021. PMID: 34488242. PMCID: PMC8556259.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8556259/' },
+    R23: { type: 'ספר לימוד מקוון (StatPearls, NCBI)', title: 'Embryology, Genitourinary', cite: 'StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK559309/' },
+    G1166: { type: 'איור מספר לימוד (נחלת הכלל)', title: 'Gray’s Anatomy (1918), Fig. 1166: Sagittal section of the lower part of a female trunk, right segment', cite: 'Gray H. Anatomy of the Human Body. 20th ed., Lewis WH, editor. Philadelphia: Lea & Febiger; 1918. Fig. 1166 (after Testut).', note: 'האיור הוא נחלת הכלל, והסריקה שלו נמצאת ב-Wikimedia Commons.', url: 'https://commons.wikimedia.org/wiki/File:Gray1166.png' },
+    G1161: { type: 'איור מספר לימוד (נחלת הכלל)', title: 'Gray’s Anatomy (1918), Fig. 1161: Uterus and right broad ligament, seen from behind', cite: 'Gray H. Anatomy of the Human Body. 20th ed. Philadelphia: Lea & Febiger; 1918. Fig. 1161.', note: 'האיור הוא נחלת הכלל, והסריקה שלו נמצאת ב-Wikimedia Commons.', url: 'https://commons.wikimedia.org/wiki/File:Gray1161.png' },
+    G404: { type: 'איור מספר לימוד (נחלת הכלל)', title: 'Gray’s Anatomy (1918), Fig. 404: Left Levator ani from within', cite: 'Gray H. Anatomy of the Human Body. 20th ed. Philadelphia: Lea & Febiger; 1918. Fig. 404. Illustrator: Henry Vandyke Carter.', note: 'האיור הוא נחלת הכלל, והסריקה שלו נמצאת ב-Wikimedia Commons.', url: 'https://commons.wikimedia.org/wiki/File:Gray404.png' },
+    G408: { type: 'איור מספר לימוד (נחלת הכלל)', title: 'Gray’s Anatomy (1918), Fig. 408: Muscles of the female perineum', cite: 'Gray H. Anatomy of the Human Body. 20th ed. Philadelphia: Lea & Febiger; 1918. Fig. 408.', note: 'האיור הוא נחלת הכלל, והסריקה שלו נמצאת ב-Wikimedia Commons. גם המצגת משתמשת בו, בשקף 41.', url: 'https://commons.wikimedia.org/wiki/File:Gray408.png' }
   },
 
   units: [
@@ -54,7 +56,7 @@ window.LESSONS['01'] = {
         ] },
         { t: 'h', h: 'מה נמצא בתוך האגן' },
         { t: 'p', h: 'באגן נמצאים הקצה הדיסטלי של מערכת השתן, איברי מערכת הרבייה והקצה הדיסטלי של מערכת העיכול{{C2|שקף 15 – "תכולת האגן"}}.' },
-        { t: 'img', src: 'https://upload.wikimedia.org/wikipedia/commons/7/70/Gray1166.png', page: 'https://commons.wikimedia.org/wiki/File:Gray1166.png', alt: 'חתך סגיטלי של אגן אישה', cap: 'חתך סגיטלי של אגן אישה{{G1166|איור 1166}}. מלפנים לאחור רואים את השלפוחית (Bladder), את הרחם (Uterus) ואת הנרתיק (Vagina), ומאחוריהם את הרקטום (Rectum). מסומנים גם ה-Symphysis, ה-Sigmoid colon, הדגדגן והשפתיים. התוויות באנגלית הן מהאיור המקורי. אפשר ללחוץ על האיור כדי לפתוח אותו בגודל מלא.' },
+        { t: 'img', src: 'https://upload.wikimedia.org/wikipedia/commons/7/70/Gray1166.png', page: 'https://commons.wikimedia.org/wiki/File:Gray1166.png', alt: 'חתך סגיטלי של אגן אישה', cap: 'חתך סגיטלי של אגן אישה{{G1166|איור 1166}}. התוויות שמופיעות באיור המקורי: Bladder, ‏Symphysis, ‏Sigmoid colon, ‏Rectum, ‏Vagina, ‏Clitoris, ‏Labium minus, ‏Labium majus ושני ה-Fornix (קדמי ואחורי). הרחם נראה באיור, בין השלפוחית לרקטום, אבל לא מסומן בו בשם. אפשר ללחוץ על האיור כדי לפתוח אותו בגודל מלא.' },
         { t: 'table', head: ['מערכת', 'איברים באגן'], rows: [
           ['מערכת המין והרבייה', 'רחם וטפולות (חצוצרות ושחלות), נרתיק (Vagina){{C1|שקף "אברי האגן"}}'],
           ['מערכת השתן (דרכי השתן התחתונות)', 'שלפוחית (Bladder), שופכה (Urethra){{C1|שקף "אברי האגן"}}'],
@@ -83,7 +85,7 @@ window.LESSONS['01'] = {
           ['הסקרום', 'רחב וקצר, עם עקמומיות מודגשת', 'צר וארוך, וה-Promontory בולט יותר קדימה'],
           ['עצם הזנב', 'ניידת וישרה יותר', 'פחות ניידת, ומתעקלת קדימה'],
           ['ה-Ischial spines', 'ללא ציון בשקף', 'בולטים פנימה (מדיאלית)']
-        ], cap: 'מקור הטבלה: {{C2|שקף 5 (טבלה) ושקף 4 (תמונה)}}. הערה: בשקף 4 מופיעים ערכים אחרים לזווית: 80°–85° באישה ופחות מ-70° בגבר. כדאי לברר עם המרצה איזה ערך נדרש למבחן.' },
+        ], cap: 'מקור הטבלה: {{C2|שקף 5 (טבלה) ושקף 4 (תמונה)}}. שלוש השורות של פתח האגן, ה-Promontory וה-Ischial spines לקוחות מהתמונה בשקף 4. בקובץ שהומר התוויות שלה לא משויכות למין, והשיוך כאן הוא שחזור שלי. הערה: בשקף 4 מופיעים ערכים אחרים לזווית: 80°–85° באישה ופחות מ-70° בגבר. כדאי לברר עם המרצה איזה ערך נדרש למבחן.' },
         { t: 'h', h: 'מפרקי האגן' },
         { t: 'ul', items: [
           'שני מפרקים סחוסיים (Cartilaginous symphysial joints): ה-Symphysis pubis וה-Sacro-coccygeal joint{{C2|שקף 7 – "מפרקי האגן"}}.',
@@ -97,7 +99,7 @@ window.LESSONS['01'] = {
           ['לטרלית', 'ה-Obturator internus, ה-Piriformis, ה-Sacrotuberous ligament וה-Sacrospinous ligament{{C2|שקף 11 – "הדופן הלטרלית"}}'],
           ['תחתונה', 'שרירי רצפת האגן ורקמות החיבור, ועליהם ביחידה 7{{C2|שקף 14 – "הדופן התחתונה"}}']
         ] },
-        { t: 'video', yt: 'q8B71Dnptxc', title: 'Piriformis ו-Obturator internus', cap: 'סרטון שהמצגת ממליצה עליו, על ה-Piriformis וה-Obturator internus. הסרטון בערבית, ולפי השקף היא מובנת{{C2|שקף 13}}. אם הסרטון לא נטען: <a href="https://www.youtube.com/watch?v=q8B71Dnptxc" target="_blank" rel="noopener">צפייה ביוטיוב</a>.' }
+        { t: 'video', yt: 'q8B71Dnptxc', title: 'סרטון על ה-Piriformis וה-Obturator internus', cap: 'סרטון שהמצגת ממליצה עליו, על ה-Piriformis וה-Obturator internus. הסרטון בערבית, ולפי השקף היא מובנת{{C2|שקף 13}}. אם הסרטון לא נטען: <a href="https://www.youtube.com/watch?v=q8B71Dnptxc" target="_blank" rel="noopener">צפייה ביוטיוב</a>.' }
       ],
       quiz: [
         { q: 'מהי זווית הקשת הפובית באישה לפי הטבלה בשקף 5?', o: ['80°–90°', '50°–60°', 'פחות מ-70°', '100°–110°'], a: 0, ex: 'לפי הטבלה: 80°–90° באישה ו-50°–60° בגבר. שימי לב שבתמונה בשקף 4 מופיעים ערכים אחרים{{C2|שקפים 4–5}}.' },
@@ -114,19 +116,19 @@ window.LESSONS['01'] = {
         { t: 'p', h: 'מין הילוד נקבע בשלושה שלבים: המין הגנטי (XX או XY), התמיינות הגונדות והסביבה ההורמונלית. הסביבה ההורמונלית קובעת את התפתחות איברי המין הפנימיים והחיצוניים{{C1|שקף "קביעת מין הילוד"}}.' },
         { t: 'h', h: 'כשיש כרומוזום Y' },
         { t: 'ul', items: [
-          'על כרומוזום ה-Y נמצא אזור ה-SRY (Sex determining region), שמקודד את ה-TDF (Testis determining factor){{C1|שקף "קביעת מין הילוד"}}{{R4|Introduction}}.',
+          'על כרומוזום ה-Y נמצא אזור ה-SRY (Sex determining region), שמקודד את ה-TDF (Testis determining factor){{C1|שקף "קביעת מין הילוד"}}{{R4|Development › Testis}}.',
           'בהשפעתו הגונדה הדו-פוטנציאלית (Bi-potential gonad) הופכת לאשך{{C1|שקף "קביעת מין הילוד"}}.',
-          'האשך מייצר שני הורמונים: AMH (Anti-Mullerian hormone) מתאי ה-Sertoli, וטסטוסטרון מתאי ה-Leydig{{C1|שקף "קביעת מין הילוד"}}{{R4|Introduction}}.'
+          'האשך מייצר שני הורמונים: AMH (Anti-Mullerian hormone) מתאי ה-Sertoli, וטסטוסטרון מתאי ה-Leydig{{C1|שקף "קביעת מין הילוד"}}{{R4|Development › Testis}}.'
         ] },
         { t: 'h', h: 'ומה קורה לצינורות מולר' },
-        { t: 'p', h: 'בהתפתחות נקבית, צינורות מולר (Paramesonephric ducts) יוצרים את החצוצרות, את הרחם ואת החלק העליון של הנרתיק. בהתפתחות זכרית הם נסוגים בהשפעת ה-AMH{{R4|הקטע על התמיינות איברי המין הפנימיים}}.' },
-        { t: 'key', h: '<b>הקשר לנרתיק:</b> לפי המצגת, שני השלישים העליונים של הנרתיק מקורם ב-Mullerian duct{{C1|שקף "נרתיק" (השני)}}.' },
+        { t: 'p', h: 'בהתפתחות נקבית, החלק העליון של צינורות מולר (Paramesonephric ducts) יוצר את החצוצרות, והחלק התחתון שלהם יוצר את הרחם, את צוואר הרחם ואת השליש העליון של הנרתיק{{R23|Development}}. בהתפתחות זכרית הם נסוגים בהשפעת ה-AMH{{R4|Development}}.' },
+        { t: 'key', h: '<b>הקשר לנרתיק:</b> לפי המצגת, שני השלישים העליונים של הנרתיק מקורם ב-Mullerian duct{{C1|שקף "נרתיק" (השני)}}. ב-StatPearls כתוב "השליש העליון"{{R23|Development}}. כדאי לברר עם המרצה איזה ערך נדרש.' },
         { t: 'note', h: 'בשקף "התפתחות מערכת המין והשתן" היה תרשים שלא שרד בהמרה. כדאי להסתכל עליו במצגת המקורית{{C1|שקף "התפתחות מערכת המין והשתן"}}.' }
       ],
       quiz: [
-        { q: 'מה מקודד אזור ה-SRY שעל כרומוזום ה-Y?', o: ['את ה-TDF', 'את ה-AMH', 'את הטסטוסטרון', 'את האסטרוגן'], a: 0, ex: 'ה-SRY מקודד את ה-TDF, הגורם שקובע את התפתחות האשך{{C1|שקף "קביעת מין הילוד"}}{{R4|Introduction}}.' },
+        { q: 'מה מקודד אזור ה-SRY שעל כרומוזום ה-Y?', o: ['את ה-TDF', 'את ה-AMH', 'את הטסטוסטרון', 'את האסטרוגן'], a: 0, ex: 'ה-SRY מקודד את ה-TDF, הגורם שקובע את התפתחות האשך{{C1|שקף "קביעת מין הילוד"}}{{R4|Development › Testis}}.' },
         { q: 'אילו תאים מייצרים AMH?', o: ['תאי Sertoli', 'תאי Leydig', 'תאי האנדומטריום', 'תאי הגונדה הנקבית'], a: 0, ex: 'ה-AMH מיוצר בתאי Sertoli, והטסטוסטרון בתאי Leydig{{C1|שקף "קביעת מין הילוד"}}.' },
-        { q: 'מה נוצר מצינורות מולר בהתפתחות נקבית?', o: ['החצוצרות, הרחם והחלק העליון של הנרתיק', 'השחלות', 'השלפוחית והשופכה', 'השפתיים הגדולות'], a: 0, ex: 'צינורות מולר יוצרים את החצוצרות, את הרחם ואת החלק העליון של הנרתיק{{R4|הקטע על התמיינות איברי המין הפנימיים}}{{C1|שקף "נרתיק" (השני)}}.' }
+        { q: 'מה נוצר מצינורות מולר בהתפתחות נקבית?', o: ['החצוצרות, הרחם והחלק העליון של הנרתיק', 'השחלות', 'השלפוחית והשופכה', 'השפתיים הגדולות'], a: 0, ex: 'צינורות מולר יוצרים את החצוצרות, את הרחם, את צוואר הרחם ואת החלק העליון של הנרתיק{{R23|Development}}{{C1|שקף "נרתיק" (השני)}}.' }
       ]
     },
 
@@ -134,37 +136,37 @@ window.LESSONS['01'] = {
     {
       id: 'external', title: 'איברי המין החיצוניים', min: 10,
       blocks: [
-        { t: 'p', h: 'איברי המין הנקביים מחולקים לפנימיים ולחיצוניים. לאיברים החיצוניים שייכים השפתיים הגדולות והקטנות, הוסטיבול, הבלוטות, הדגדגן והפרינאום. האיברים הפנימיים נמצאים בתוך האגן האמיתי: הנרתיק, צוואר הרחם, הרחם, החצוצרות והשחלות{{C1|שקף "מערכת המין הנקבית"}}{{R6|Introduction}}.' },
-        { t: 'video', yt: '0k-_4WloY6Y', title: 'Vulva', cap: 'סרטון מהשקף "וולווה – Vulva", שכותרתו שם: "It’s not vulgar, it’s vulva"{{C1|שקף "וולווה – VULVA"}}. אם הסרטון לא נטען: <a href="https://www.youtube.com/watch?v=0k-_4WloY6Y" target="_blank" rel="noopener">צפייה ביוטיוב</a>.' },
+        { t: 'p', h: 'איברי המין הנקביים מחולקים לפנימיים ולחיצוניים. ברשימה בשקף, לאיברים החיצוניים שייכים הוולווה, השפתיים הגדולות והקטנות, הוסטיבול, הבלוטות והפרינאום{{C1|שקף "מערכת המין הנקבית"}}. הדגדגן לא מופיע ברשימה הזאת, אבל ב-StatPearls הוא נמנה עם איברי המין החיצוניים{{R6|Introduction}}. לפי StatPearls, האיברים הפנימיים נמצאים בתוך האגן האמיתי: הנרתיק, צוואר הרחם, הרחם, החצוצרות והשחלות{{R6|Introduction}}.' },
+        { t: 'video', yt: '0k-_4WloY6Y', title: 'סרטון על הוולווה', cap: 'סרטון מהשקף "וולווה – Vulva", שכותרתו שם: "It’s not vulgar, it’s vulva"{{C1|שקף "וולווה – VULVA"}}. אם הסרטון לא נטען: <a href="https://www.youtube.com/watch?v=0k-_4WloY6Y" target="_blank" rel="noopener">צפייה ביוטיוב</a>.' },
         { t: 'h', h: 'השפתיים הגדולות (Labia majora)' },
         { t: 'ul', items: [
           'הן משתרעות מה-Mons עד הפרינאום ומהוות את הגבול הלטרלי של הוולווה{{C1|שקף "שפתיים גדולות"}}.',
-          'אורכן 7–9 ס"מ ורוחבן 2–4 ס"מ{{C1|שקף "שפתיים גדולות"}}.',
-          'מבחינה עוברית, בשקף נכתב שהן מקבילות לאשכים{{C1|שקף "שפתיים גדולות"}}. ב-StatPearls ההקבלה המדויקת היא לשק האשכים (Scrotum): שניהם מתפתחים מה-Labioscrotal folds{{R5|Structure and Function}}.',
+          'אורכן 7–⁠9 ס"מ ורוחבן 2–⁠4 ס"מ{{C1|שקף "שפתיים גדולות"}}.',
+          'מבחינה עוברית, בשקף נכתב שהן מקבילות לאשכים{{C1|שקף "שפתיים גדולות"}}. ב-StatPearls ההקבלה המדויקת היא לשק האשכים (Scrotum): שניהם מתפתחים מה-Labioscrotal folds{{R5|Embryology}}.',
           'מתחת לעור נמצא שריר ה-Tunica dartos labialis. בשכבה העמוקה יש סיבי שריר אורכיים, בהמשך ל-Round ligament{{C1|שקף "שפתיים גדולות"}}. ה-Round ligament אכן מסתיים בשפתיים הגדולות{{R9|Introduction}}.',
           'לפי השקף, לבלוטות הלימפה של השפתיים יש קשר ל"שפה הנגדית"{{C1|שקף "שפתיים גדולות"}}.'
         ] },
         { t: 'table', head: ['עצב', 'שורשים', 'מה הוא מעצבב'], rows: [
-          ['ה-Iliohypogastric nerve (ענף Anterior hypogastric)', 'T12–L1', 'החלק העליון של השפה'],
+          ['ה-Iliohypogastric nerve (ענף Anterior hypogastric)', 'T12–⁠L1', 'החלק העליון של השפה'],
           ['ה-Ilioinguinal nerve', 'L1', 'חלק מדיאלי של השפה'],
-          ['ה-Genitofemoral nerve', 'L1–2', 'חלקים עמוקים, כולל שריר ה-Dartos'],
-          ['ה-Posterior femoral cutaneous nerve (מה-Sacral plexus)', 'S1–2', 'גם את הירך המדיאלית'],
-          ['ה-Pudendal nerve', 'S2–4', 'ללא פירוט בשקף']
+          ['ה-Genitofemoral nerve', 'L1–⁠2', 'חלקים עמוקים, כולל שריר ה-Dartos'],
+          ['ה-Posterior femoral cutaneous nerve (מה-Sacral plexus)', 'S1–⁠2', 'גם את הירך המדיאלית'],
+          ['ה-Pudendal nerve', 'S2–⁠4', 'ללא פירוט בשקף']
         ], cap: 'עצבוב השפתיים הגדולות{{C1|שקף "עצבוב שפתיים גדולות"}}.' },
         { t: 'h', h: 'השפתיים הקטנות (Labia minora)' },
         { t: 'ul', items: [
-          'אורכן הממוצע 5 ס"מ, ועוביין לפי השקף 0.5–1 מ"מ{{C1|שקף "שפתיים פנימיות"}}.',
+          'אורכן הממוצע 5 ס"מ, ועוביין לפי השקף 0.5–⁠1 מ"מ{{C1|שקף "שפתיים פנימיות"}}.',
           'הן משתרעות מבסיס הדגדגן עד ה-Hymen ring{{C1|שקף "שפתיים פנימיות"}}.',
-          'מבחינה עוברית, השפתיים הקטנות והוסטיבול מקבילים לעור ה-Urethra והפין בגבר{{C1|שקף "שפתיים פנימיות"}}{{R5|Structure and Function}}.',
+          'מבחינה עוברית, לפי השקף, השפתיים הקטנות והוסטיבול מקבילים לעור ה-Urethra והפין בגבר{{C1|שקף "שפתיים פנימיות"}}. ב-StatPearls כתוב שה-Urogenital folds הופכים באישה לשפתיים הקטנות, ובגבר לצד הגחוני של גוף הפין{{R5|Embryology}}.',
           'העצבוב מגיע מסיבים של השפתיים הגדולות ומה-Pudendal nerve ביציאתו מה-Alcock’s canal{{C1|שקף "שפתיים פנימיות"}}.'
         ] },
         { t: 'h', h: 'הוסטיבול (Vestibule) והבלוטות' },
         { t: 'ul', items: [
           'גבולות הוסטיבול: השפתיים הפנימיות, האורטרה, הדגדגן וה-Hymen ring{{C1|שקף "וסטיבול"}}.',
-          'בלוטות ברתולין נמצאות "בשעה 5 ו-7", ובלוטות Skene "בשעה 1 ו-3"{{C1|שקף "וסטיבול"}}.',
+          'לפי השקף, בלוטות ברתולין נמצאות "בשעה 5 ו-7", ובלוטות ה-Skene "בשעה 1 ו-3"{{C1|שקף "וסטיבול"}}. שימי לב: שעה 1 ו-3 לא סימטרית, וייתכן שזו טעות הקלדה בשקף. כדאי לברר עם המרצה.',
           'העור בו מחוספס, ויש בו אספקת דם עשירה. העצבוב: ה-Perineal nerve ו-Free nerve endings{{C1|שקף "וסטיבול"}}.',
-          'בלוטות Skene נקראות גם Para-urethral glands, וההפרשה שלהן מקבילה להפרשה מהפרוסטטה{{C1|שקף "Vestibular glands"}}{{R5|Structure and Function}}.',
-          'בלוטות ברתולין נמצאות לטרלית ומעט אחורית לפתח הנרתיק{{R5|Structure and Function}}. בשקף הן מתוארות כאינפריוריות ולטרליות ל-Bulbocavernosus{{C1|שקף "Vestibular glands"}}.'
+          'בלוטות Skene נקראות גם Para-urethral glands, וההפרשה שלהן מקבילה להפרשה מהפרוסטטה{{C1|שקף "Vestibular glands"}}{{R5|Structure and Function › Skene Glands}}.',
+          'בלוטות ברתולין נמצאות לטרלית ומעט אחורית לפתח הנרתיק{{R5|Structure and Function › Bartholin Glands}}. בשקף הן מתוארות כאינפריוריות ולטרליות ל-Bulbocavernosus{{C1|שקף "Vestibular glands"}}.'
         ] },
         { t: 'h', h: 'הדגדגן (Clitoris)' },
         { t: 'ul', items: [
@@ -177,10 +179,10 @@ window.LESSONS['01'] = {
       ],
       quiz: [
         { q: 'מה מהווה את הגבול הלטרלי של הוולווה?', o: ['השפתיים הגדולות', 'השפתיים הקטנות', 'ה-Hymen ring', 'הוסטיבול'], a: 0, ex: 'השפתיים הגדולות הן הגבולות הלטרליים של הוולווה{{C1|שקף "שפתיים גדולות"}}.' },
-        { q: 'איזה עצב מעצבב את החלקים העמוקים של השפתיים הגדולות, כולל שריר ה-Dartos?', o: ['ה-Genitofemoral nerve', 'ה-Ilioinguinal nerve', 'ה-Iliohypogastric nerve', 'ה-Posterior femoral cutaneous nerve'], a: 0, ex: 'ה-Genitofemoral nerve ‏(L1–2) מעצבב את החלקים העמוקים, כולל ה-Dartos{{C1|שקף "עצבוב שפתיים גדולות"}}.' },
-        { q: 'היכן נמצאות בלוטות ברתולין לפי "שעון" השקף?', o: ['בשעה 5 ו-7', 'בשעה 1 ו-3', 'בשעה 12', 'בשעה 9 ו-3'], a: 0, ex: 'ברתולין בשעה 5 ו-7, ו-Skene בשעה 1 ו-3{{C1|שקף "וסטיבול"}}.' },
-        { q: 'להפרשה של איזו בלוטה בגבר מקבילות בלוטות Skene?', o: ['הפרוסטטה', 'הבלוטה הבולבואורתרלית', 'האשך', 'שלפוחית הזרע'], a: 0, ex: 'בלוטות Skene מקבילות לפרוסטטה{{C1|שקף "Vestibular glands"}}{{R5|Structure and Function}}.' },
-        { q: 'למה מקבילות השפתיים הגדולות מבחינה עוברית, לפי StatPearls?', o: ['לשק האשכים (Scrotum)', 'לגוף הפין', 'לפרוסטטה', 'לראש הפין'], a: 0, ex: 'השפתיים הגדולות ושק האשכים מתפתחים שניהם מה-Labioscrotal folds{{R5|Structure and Function}}. בשקף נכתב "מקבילות לאשכים"{{C1|שקף "שפתיים גדולות"}}.' }
+        { q: 'איזה עצב מעצבב את החלקים העמוקים של השפתיים הגדולות, כולל שריר ה-Dartos?', o: ['ה-Genitofemoral nerve', 'ה-Ilioinguinal nerve', 'ה-Iliohypogastric nerve', 'ה-Posterior femoral cutaneous nerve'], a: 0, ex: 'ה-Genitofemoral nerve ‏(L1–⁠2) מעצבב את החלקים העמוקים, כולל ה-Dartos{{C1|שקף "עצבוב שפתיים גדולות"}}.' },
+        { q: 'היכן נמצאות בלוטות ברתולין לפי "שעון" השקף?', o: ['בשעה 5 ו-7', 'בשעה 1 ו-3', 'בשעה 12', 'בשעה 9 ו-3'], a: 0, ex: 'לפי השקף, ברתולין בשעה 5 ו-7 וה-Skene בשעה 1 ו-3{{C1|שקף "וסטיבול"}}. שימי לב: שעה 1 ו-3 לא סימטרית, וייתכן שזו טעות הקלדה בשקף. כדאי לברר עם המרצה.' },
+        { q: 'להפרשה של איזו בלוטה בגבר מקבילות בלוטות Skene?', o: ['הפרוסטטה', 'הבלוטה הבולבואורתרלית', 'האשך', 'שלפוחית הזרע'], a: 0, ex: 'בלוטות Skene מקבילות לפרוסטטה{{C1|שקף "Vestibular glands"}}{{R5|Structure and Function › Skene Glands}}.' },
+        { q: 'למה מקבילות השפתיים הגדולות מבחינה עוברית, לפי StatPearls?', o: ['לשק האשכים (Scrotum)', 'לגוף הפין', 'לפרוסטטה', 'לראש הפין'], a: 0, ex: 'השפתיים הגדולות ושק האשכים מתפתחים שניהם מה-Labioscrotal folds{{R5|Embryology}}. בשקף נכתב "מקבילות לאשכים"{{C1|שקף "שפתיים גדולות"}}.' }
       ]
     },
 
@@ -190,22 +192,22 @@ window.LESSONS['01'] = {
       blocks: [
         { t: 'h', h: 'הנרתיק (Vagina)' },
         { t: 'ul', items: [
-          'הנרתיק הוא תעלה פיברומוסקולרית חזקה, באורך 7–9 ס"מ{{C1|שקף "נרתיק"}}.',
-          'הקיר הקדמי קצר ב-1.5–2 ס"מ מהקיר האחורי, בגלל המפגש עם צוואר הרחם{{C1|שקף "נרתיק"}}.',
+          'הנרתיק הוא תעלה פיברומוסקולרית חזקה, באורך 7–⁠9 ס"מ{{C1|שקף "נרתיק"}}.',
+          'הקיר הקדמי קצר ב-1.5–⁠2 ס"מ מהקיר האחורי, בגלל המפגש עם צוואר הרחם{{C1|שקף "נרתיק"}}.',
           'הדופן בנויה ממוקוזה ומשריר חלק: שכבה חיצונית אורכית ושכבה פנימית מעגלית{{C1|שקף "נרתיק"}}.',
           'אספקת הדם מגיעה מה-Uterine artery{{C1|שקף "נרתיק"}}.',
           'מקדימה הנרתיק גובל בשלפוחית, ומאחור ב-Douglas pouch (בשקף: Duglas){{C1|שקף "נרתיק" (השני)}}.',
-          'ה-pH בנרתיק הוא 3.5–4.5, בזכות הלקטובצילים{{C1|שקף "נרתיק" (השני)}}.',
+          'ה-pH בנרתיק הוא 3.5–⁠4.5, בזכות הלקטובצילים{{C1|שקף "נרתיק" (השני)}}.',
           'העצבוב: סימפטטי מה-Hypogastric nerve, פאראסימפטטי מה-Sacral nerve וסומטי מה-Pudendal nerve{{C1|שקף "נרתיק" (השני)}}.'
         ] },
         { t: 'h', h: 'הרחם (Uterus)' },
         { t: 'ul', items: [
-          'הרחם הוא איבר שרירי דמוי אגס. באישה שלא ילדה מידותיו 7–8 ס"מ אורך ו-4–5 ס"מ רוחב, ומשקלו 30–40 גרם{{C1|שקף "רחם"}}.',
+          'הרחם הוא איבר שרירי דמוי אגס. באישה שלא ילדה מידותיו 7–⁠8 ס"מ אורך ו-4–⁠5 ס"מ רוחב, ומשקלו 30–⁠40 גרם{{C1|שקף "רחם"}}.',
           'הוא מחולק לשלושה חלקים: Body, ‏Isthmus ו-Cervix{{C1|שקף "רחם"}}.',
           'משני צדדיו הוא מוקף ב-Broad ligament, ולחלקו העליון מחוברות החצוצרות{{C1|שקף "רחם"}}.'
         ] },
         { t: 'img', src: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Gray1161.png', page: 'https://commons.wikimedia.org/wiki/File:Gray1161.png', alt: 'הרחם והרצועה הרחבה הימנית במבט מאחור', cap: 'הרחם והרצועה הרחבה הימנית, במבט מאחור. הרצועה הרחבה פרושה, והשחלה מוטה כלפי מטה{{G1161|איור 1161}}. מסומנים באיור: הרחם (Uterus), החצוצרה (Uterine tube) והפימבריות שבקצה שלה, השחלה (Ovary) והרצועה שלה, ה-Broad ligament, כלי הדם של השחלה, הנרתיק (Vagina) ופתח הרחם החיצוני. האיור לא מראה את שכבות דופן הרחם, ולכן הן מופיעות למטה רק בטקסט.' },
-        { t: 'p', h: 'לדופן הרחם שלוש שכבות: Serous ‏(Perimetrium), ‏Muscular ‏(Myometrium, בעובי 1.5–2.5 ס"מ) ו-Mucous ‏(Endometrium). בשריר יש שכבה חיצונית של סיבים אורכיים, ושכבה פנימית של סיבים בכיוונים שונים שמתכווצים בעוצמה בצירים{{C1|שקף "מבנה הרחם"}}.' },
+        { t: 'p', h: 'לדופן הרחם שלוש שכבות: Serous ‏(Perimetrium), ‏Muscular ‏(Myometrium, בעובי 1.5–⁠2.5 ס"מ) ו-Mucous ‏(Endometrium). בשריר יש שכבה חיצונית של סיבים אורכיים, ושכבה פנימית של סיבים בכיוונים שונים שמתכווצים בעוצמה בצירים{{C1|שקף "מבנה הרחם"}}.' },
         { t: 'ul', items: [
           'האנדומטריום משתנה מהבגרות ועד המנופאוזה, בהשפעה הורמונלית של השחלות{{C1|שקף "מבנה הרחם" (המשך)}}.',
           'שלב ה-Proliferative ‏(Follicular): בהשפעת אסטרוגן{{C1|שקף "מבנה הרחם" (המשך)}}.',
@@ -214,23 +216,23 @@ window.LESSONS['01'] = {
         ] },
         { t: 'h', h: 'תמיכת הרחם' },
         { t: 'table', head: ['רצועה', 'לפי המצגות', 'הרחבה ממקור אקדמי'], rows: [
-          ['ה-Broad ligament', 'עליונה. קפל (Reflexion) של הפריטונאום{{C1|שקף "תמיכת הרחם"}}', 'שכבה כפולה של פריטונאום. תמיכה משנית בלבד{{R7|Introduction}}'],
-          ['ה-Round ligament', 'עליונה{{C1|שקף "תמיכת הרחם"}}', 'תמיכה משנית{{R7|Introduction}}. בהריון עוזרת לשמור על הרחם במנח Anteversion{{R9|Structure and Function}}'],
-          ['ה-Cardinal ligament', 'תחתונה. תומכת גם בשליש העליון של הנרתיק{{C2|שקף 82}}', 'יחד עם ה-Uterosacral: תמיכה אפיקלית לרחם ולנרתיק העליון{{R8|Introduction}}'],
-          ['ה-Sacro-uterine ligament', 'תחתונה. תומכת גם בשליש העליון של הנרתיק{{C2|שקף 82}}', 'כמו ה-Cardinal{{R8|Introduction}}']
+          ['ה-Broad ligament', 'עליונה. קפל (Reflexion) של הפריטונאום{{C1|שקף "תמיכת הרחם"}}', 'שכבה כפולה של פריטונאום{{R7|Introduction}}. תמיכה משנית בלבד{{R7|Structure and Function}}'],
+          ['ה-Round ligament', 'עליונה{{C1|שקף "תמיכת הרחם"}}', 'תמיכה משנית{{R7|Structure and Function}}. בהריון עוזרת לשמור על הרחם במנח Anteversion{{R9|Structure and Function}}'],
+          ['ה-Cardinal ligament', 'תחתונה. תומכת גם בשליש העליון של הנרתיק{{C2|שקף 82}}', 'יחד עם ה-Uterosacral: תמיכה אפיקלית לרחם ולנרתיק העליון{{R8|תקציר הפרק ב-PubMed}}'],
+          ['ה-Sacro-uterine ligament', 'תחתונה. תומכת גם בשליש העליון של הנרתיק{{C2|שקף 82}}', 'כמו ה-Cardinal{{R8|תקציר הפרק ב-PubMed}}']
         ] },
         { t: 'h', h: 'צוואר הרחם (Cervix)' },
         { t: 'ul', items: [
-          'זהו החלק התחתון של הרחם, באורך 2–4 ס"מ{{C1|שקף "צוואר הרחם"}}.',
-          'הוא נפתח לנרתיק בזווית של 45–90 מעלות{{C1|שקף "צוואר הרחם"}}.',
+          'זהו החלק התחתון של הרחם, באורך 2–⁠4 ס"מ{{C1|שקף "צוואר הרחם"}}.',
+          'הוא נפתח לנרתיק בזווית של 45–⁠90 מעלות{{C1|שקף "צוואר הרחם"}}.',
           'בשקף מופיעים גם המונחים Dead end tendon ו-Transitional zone, בלי הסבר בקובץ שהומר{{C1|שקף "צוואר הרחם"}}.'
         ] },
         { t: 'h', h: 'החצוצרות והשחלות' },
         { t: 'ul', items: [
-          'החצוצרות באורך 7–12 ס"מ, ומתעקלות כלפי מעלה ולאחור. דרכן עוברת הביצית אל הרחם{{C1|שקף "חצוצרות"}}.',
+          'החצוצרות באורך 7–⁠12 ס"מ, ומתעקלות כלפי מעלה ולאחור. דרכן עוברת הביצית אל הרחם{{C1|שקף "חצוצרות"}}.',
           'ה-Fimbria קולטת את הביצית מהשחלה{{C1|שקף "חצוצרות"}}.',
-          'השחלות: אורך 2.5–5 ס"מ, רוחב 0.7–1.5 ס"מ, עומק 1.5–3 ס"מ ומשקל 4–8 גרם. הן מפרישות אסטרוגן ופרוגסטרון{{C1|שקף "שחלות"}}.',
-          '"בנק הביציות": 6–7 מיליון בשבוע 20 (בעובר), 2 מיליון בלידה, וכ-400 ביוצים בתקופת הפוריות{{C1|שקף "שחלות"}}.',
+          'השחלות: אורך 2.5–⁠5 ס"מ, רוחב 0.7–⁠1.5 ס"מ, עומק 1.5–⁠3 ס"מ ומשקל 4–⁠8 גרם. הן מפרישות אסטרוגן ופרוגסטרון{{C1|שקף "שחלות"}}.',
+          '"בנק הביציות": 6–⁠7 מיליון בשבוע 20 (בעובר), 2 מיליון בלידה, וכ-400 ביוצים בתקופת הפוריות{{C1|שקף "שחלות"}}.',
           'אספקת הדם לשני האיברים: Uterine artery ו-Ovarian artery{{C1|שקפים "חצוצרות" ו"שחלות"}}.'
         ] },
         { t: 'h', h: 'מנח הרחם' },
@@ -249,13 +251,13 @@ window.LESSONS['01'] = {
         { t: 'fig', d: 'fundal', cap: 'תרשים סכמטי של גובה הרחם לפי שבועות{{C1|שקף "הרחם ההריוני"}}{{R10|Issues of Concern › Clinical History and Physical Exam}}.' }
       ],
       quiz: [
-        { q: 'למה הקיר הקדמי של הנרתיק קצר יותר מהאחורי?', o: ['בגלל המפגש עם צוואר הרחם', 'בגלל הלחץ של השלפוחית', 'בגלל ה-Perineal body', 'הוא לא קצר יותר'], a: 0, ex: 'הקיר הקדמי קצר ב-1.5–2 ס"מ בגלל המפגש עם צוואר הרחם{{C1|שקף "נרתיק"}}.' },
-        { q: 'מהו ה-pH התקין בנרתיק לפי המצגת?', o: ['3.5–4.5', '5.5–6.5', '7.0–7.4', '2.0–2.5'], a: 0, ex: 'ה-pH הוא 3.5–4.5, בזכות הלקטובצילים{{C1|שקף "נרתיק" (השני)}}.' },
-        { q: 'איך נקראת שכבת השריר של הרחם?', o: ['Myometrium', 'Endometrium', 'Perimetrium', 'Parametrium'], a: 0, ex: 'ה-Myometrium היא השכבה השרירית, בעובי 1.5–2.5 ס"מ{{C1|שקף "מבנה הרחם"}}.' },
+        { q: 'למה הקיר הקדמי של הנרתיק קצר יותר מהאחורי?', o: ['בגלל המפגש עם צוואר הרחם', 'בגלל הלחץ של השלפוחית', 'בגלל ה-Perineal body', 'הוא לא קצר יותר'], a: 0, ex: 'הקיר הקדמי קצר ב-1.5–⁠2 ס"מ בגלל המפגש עם צוואר הרחם{{C1|שקף "נרתיק"}}.' },
+        { q: 'מהו ה-pH התקין בנרתיק לפי המצגת?', o: ['3.5–⁠4.5', '5.5–⁠6.5', '7.0–⁠7.4', '2.0–⁠2.5'], a: 0, ex: 'ה-pH הוא 3.5–⁠4.5, בזכות הלקטובצילים{{C1|שקף "נרתיק" (השני)}}.' },
+        { q: 'איך נקראת שכבת השריר של הרחם?', o: ['Myometrium', 'Endometrium', 'Perimetrium', 'Parametrium'], a: 0, ex: 'ה-Myometrium היא השכבה השרירית, בעובי 1.5–⁠2.5 ס"מ{{C1|שקף "מבנה הרחם"}}.' },
         { q: 'איזה הורמון שולט בשלב ה-Secretory של האנדומטריום?', o: ['פרוגסטרון', 'אסטרוגן', 'טסטוסטרון', 'AMH'], a: 0, ex: 'שלב ה-Secretory בהשפעת פרוגסטרון. שלב ה-Proliferative בהשפעת אסטרוגן{{C1|שקף "מבנה הרחם" (המשך)}}.' },
-        { q: 'אילו רצועות נותנות לרחם ולנרתיק העליון תמיכה אפיקלית?', o: ['ה-Cardinal וה-Uterosacral', 'ה-Broad וה-Round', 'ה-Pubovesical וה-Pubourethral', 'ה-Sacrospinous וה-Sacrotuberous'], a: 0, ex: 'ה-Cardinal וה-Uterosacral הן הרצועות התחתונות{{C1|שקף "תמיכת הרחם"}}, והן נותנות תמיכה אפיקלית{{R8|Introduction}}. ה-Broad וה-Round הן תמיכה משנית{{R7|Introduction}}.' },
+        { q: 'אילו רצועות נותנות לרחם ולנרתיק העליון תמיכה אפיקלית?', o: ['ה-Cardinal וה-Uterosacral', 'ה-Broad וה-Round', 'ה-Pubovesical וה-Pubourethral', 'ה-Sacrospinous וה-Sacrotuberous'], a: 0, ex: 'ה-Cardinal וה-Uterosacral הן הרצועות התחתונות{{C1|שקף "תמיכת הרחם"}}, והן נותנות תמיכה אפיקלית{{R8|תקציר הפרק ב-PubMed}}. ה-Broad וה-Round הן תמיכה משנית{{R7|Structure and Function}}.' },
         { q: 'באיזה שבוע הריון מגיע הרחם לגובה הטבור?', o: ['שבוע 20', 'שבוע 12', 'שבוע 30', 'שבוע 40'], a: 0, ex: 'בשבוע 20 הרחם מגיע לטבור{{C1|שקף "הרחם ההריוני"}}{{R10|Issues of Concern › Clinical History and Physical Exam}}.' },
-        { q: 'כמה ביציות יש בשחלות בזמן הלידה, לפי המצגת?', o: ['כ-2 מיליון', 'כ-6–7 מיליון', 'כ-400', 'כ-20 אלף'], a: 0, ex: '6–7 מיליון בשבוע 20 לעובר, 2 מיליון בלידה וכ-400 ביוצים לאורך החיים{{C1|שקף "שחלות"}}.' }
+        { q: 'כמה ביציות יש בשחלות בזמן הלידה, לפי המצגת?', o: ['כ-2 מיליון', 'כ-6–⁠7 מיליון', 'כ-400', 'כ-20 אלף'], a: 0, ex: '6–⁠7 מיליון בשבוע 20 לעובר, 2 מיליון בלידה וכ-400 ביוצים לאורך החיים{{C1|שקף "שחלות"}}.' }
       ]
     },
 
@@ -290,7 +292,7 @@ window.LESSONS['01'] = {
     {
       id: 'four-layers', title: 'רצפת האגן: ארבע השכבות', min: 15,
       blocks: [
-        { t: 'p', h: 'רצפת האגן היא מכלול של שרירים ופסיות שסוגר את האגן מלמטה. רוב השריר הוא ה-Levator ani וה-Coccygeus, ולצידם ה-Endopelvic fascia וה-Perineal membrane{{R1|Introduction}}. במצגת רצפת האגן מחולקת לארבע שכבות, מהעמוקה לשטחית{{C2|שקף 16}}.' },
+        { t: 'p', h: 'רצפת האגן היא מכלול של שרירים ופסיות שסוגר את האגן מלמטה. רוב השריר הוא ה-Levator ani וה-Coccygeus, ולצידם ה-Endopelvic fascia וה-Perineal membrane{{R1|Introduction}}. במצגת רצפת האגן מחולקת לארבע שכבות{{C2|שקף 16}}. השקף לא אומר במפורש "מהעמוקה לשטחית", אבל זה הסדר שבו הן מוצגות ונלמדות בשקפים הבאים{{C2|שקפים 17, 21, 36, 41}}.' },
         { t: 'fig', d: 'layers', cap: 'תרשים סכמטי של ארבע השכבות{{C2|שקפים 16, 17, 21, 36, 41}}.' },
 
         { t: 'h', h: 'שכבה 1: ה-Endopelvic fascia' },
@@ -303,23 +305,24 @@ window.LESSONS['01'] = {
         { t: 'h', h: 'שכבה 2: שרירי ה-Levator ani' },
         { t: 'p', h: 'ה-Levator ani בנוי משלושה חלקים: Puborectalis, ‏Pubococcygeus ו-Iliococcygeus. יחד עם ה-Coccygeus הוא חלק מרצפת האגן{{R2|Introduction}}. בספרות האנטומית אין הסכמה מלאה על אופן החלוקה של ה-LA{{R2|Structure and Function}}. גם המצגת מציינת שה-Coccygeus "לא תמיד נחשב כחלק מה-LA"{{C2|שקף 26}}.' },
         { t: 'p', h: 'בשכבה הזאת יש שני פתחים: ה-Urogenital hiatus, שנקרא גם Levator ani hiatus, וה-Rectal hiatus ‏(Ano-rectal){{C2|שקף 22}}.' },
-        { t: 'img', src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gray404.png', page: 'https://commons.wikimedia.org/wiki/File:Gray404.png', alt: 'ה-Levator ani השמאלי במבט מבפנים', cap: 'ה-Levator ani השמאלי, במבט מתוך האגן{{G404|איור 404}}. מסומנים באיור: ה-Levator ani, ה-Coccygeus, ה-Piriformis (בכתיב הישן Pyriformis), ה-Obturator fascia, ה-Pubis וה-Anococcygeal raphe. <b>שתי הסתייגויות:</b> האגן באיור הוא של גבר, ומסומנת בו הפרוסטטה. בנוסף, ה-LA מצויר כשריר אחד, בלי החלוקה ל-Puborectalis, ‏Pubococcygeus ו-Iliococcygeus. את החלוקה הזאת מפרטת הטבלה שלמטה.' },
-        { t: 'note', h: 'בקובץ שהומר נעלמו שמות השרירים בשקפים 23–26. השיוך בטבלה נעשה לפי התוכן: שקף 23 זהה בתוכנו לשקף 31, שכותרתו Puborectalis. שקף 25 זהה לשקף 32, שכותרתו Iliococcygeus. שקף 26 הוא ה-Coccygeus, כי כתוב בו שאינו תמיד חלק מה-LA ושהוא חופף ל-Sacrospinous ligament שקף 24 הוא לכן ה-Pubococcygeus. כדאי לוודא את השיוך מול המצגת המקורית{{C2|שקפים 23–26, 31–32}}.' },
+        { t: 'img', src: 'https://upload.wikimedia.org/wikipedia/commons/6/63/Gray404.png', page: 'https://commons.wikimedia.org/wiki/File:Gray404.png', alt: 'ה-Levator ani השמאלי במבט מבפנים', cap: 'ה-Levator ani השמאלי, במבט מתוך האגן{{G404|איור 404}}. מסומנים באיור: ה-Levator ani, ה-Coccygeus, ה-Piriformis (בכתיב הישן Pyriformis), ה-Obturator fascia, ה-Pubis וה-Anococcygeal raphe. <b>שתי הסתייגויות:</b> האגן באיור הוא של גבר, ומסומנת בו הפרוסטטה. בנוסף, ה-LA מצויר כשריר אחד, בלי החלוקה ל-Puborectalis, ‏Pubococcygeus ו-Iliococcygeus. את החלוקה הזאת מפרטת הטבלה שלמטה.' },
+        { t: 'note', h: 'בקובץ שהומר נעלמו שמות השרירים בשקפים 23–⁠26, ולכן השיוך בטבלה הוא שחזור שלי. שקף 23: התפקיד והעצבוב שבו חוזרים בשקף 31, שכותרתו Puborectalis. שקף 25: ה"מדף" והתפקיד שבו חוזרים בשקף 32, שכותרתו Iliococcygeus. שקף 26 הוא ה-Coccygeus, כי כתוב בו שהוא לא תמיד נחשב חלק מה-LA ושהוא חופף ל-Sacrospinous ligament. שקף 24 הוא ה-Pubococcygeus: התחל והאחז שבו (חלק אחורי של ה-Pubis וקדמי של ה-Obturator fascia, ואחז ב-Anococcygeal raphe) תואמים את תיאור ה-Pubococcygeus ב-StatPearls{{R2|Origin, Course, and Insertion}}{{C2|שקפים 23–26, 31–32}}.' },
         { t: 'table', head: ['שריר', 'תחל', 'אחז', 'תפקיד', 'עצבוב'], rows: [
           ['ה-Puborectalis{{C2|שקפים 23, 31}}', 'החלק האחורי של ה-Pubis', 'מאחורי הרקטום. מתחבר גם לסוגר החיצוני של השופכה (EUS) ולסוגר החיצוני של האנוס (EAS)', 'שליטה על הזווית האנורקטלית. מהווה חלק מה-External anal sphincter', 'סומטי (LA nerve ו-Pudendal), וגם רפלקסיבי-אוטונומי בעלייה פתאומית של הלחץ התוך-בטני'],
-          ['ה-Pubococcygeus{{C2|שקף 24}}', 'החלק האחורי של ה-Pubis והחלק הקדמי של ה-Obturator fascia. עובר אופקית משני צדי האנוס', 'חלק מהסיבים ל-Anococcygeal raphe, ומשם בגיד שטוח מאחורי הרקטום לחלק הקדמי של ה-Coccyx', 'יחד עם ה-PR מרים ולוחץ את ה-Urogenital hiatus, כלומר סוגר את האורטרה', 'ענפים פרינאליים של ה-Anterior primary rami, ‏S3–4'],
-          ['ה-Iliococcygeus{{C2|שקפים 25, 32}}', 'החלק האמצעי של ה-Obturator internus וה-Ischial spine, וחלק אחורי מה-Sacrospinous ligament', 'ה-Anococcygeal raphe וה-Coccyx', 'יוצר "מדף" אופקי לאיברי האגן. מרים את פי הטבעת ואת צוואר השלפוחית ותומך באיברי האגן', 'ה-Nerve to levator ani, ‏S3–4'],
-          ['ה-Coccygeus{{C2|שקף 26}}', 'קצה ה-Ischial spine והצד הפנימי של ה-Sacrospinous ligament', 'משני צדי ה-Coccyx וקצה הסקרום', 'עוזר ל-LA ול-Piriformis לסגור את החלק האחורי של מוצא האגן, וכך מסייע בסגירת הרקטום', 'ענפים פרינאליים של ה-Anterior primary rami, ‏S3–4']
+          ['ה-Pubococcygeus{{C2|שקף 24}}', 'החלק האחורי של ה-Pubis והחלק הקדמי של ה-Obturator fascia. עובר אופקית משני צדי האנוס', 'חלק מהסיבים ל-Anococcygeal raphe, ומשם בגיד שטוח מאחורי הרקטום לחלק הקדמי של ה-Coccyx', 'יחד עם ה-PR מרים ולוחץ את ה-Urogenital hiatus, כלומר סוגר את האורטרה', 'ענפים פרינאליים של ה-Anterior primary rami, ‏S3–⁠4'],
+          ['ה-Iliococcygeus{{C2|שקפים 25, 32}}', 'החלק האמצעי של ה-Obturator internus וה-Ischial spine, וחלק אחורי מה-Sacrospinous ligament', 'ה-Anococcygeal raphe וה-Coccyx', 'יוצר "מדף" אופקי לאיברי האגן. מרים את פי הטבעת ואת צוואר השלפוחית ותומך באיברי האגן', 'ה-Nerve to levator ani, ‏S3–⁠4'],
+          ['ה-Coccygeus{{C2|שקף 26}}', 'קצה ה-Ischial spine והצד הפנימי של ה-Sacrospinous ligament', 'משני צדי ה-Coccyx וקצה הסקרום', 'עוזר ל-LA ול-Piriformis לסגור את החלק האחורי של מוצא האגן, וכך מסייע בסגירת הרקטום', 'ענפים פרינאליים של ה-Anterior primary rami, ‏S3–⁠4']
         ] },
         { t: 'p', h: 'ה-Iliococcygeus יוצא מה-ATLA ‏(Tendinous arc of levator ani), שנמצא על ה-Obturator fascia{{C2|שקף 28}}. לפי StatPearls, החלק האחורי של ה-ATFP, שמכסה את הצד המדיאלי של ה-Obturator internus, יוצר את ה-ATLA, וממנו יוצא ה-Iliococcygeus{{R2|Origin, Course, and Insertion}}.' },
         { t: 'key', h: '<b>שימי לב לכיוון:</b> בזמן התרוקנות, כיווץ של ה-Iliococcygeus (ה-LA) גורם לפתיחה של צוואר השלפוחית ושל פי הטבעת. המצגת מייחסת את הממצא ל-DeLancey, 2003{{C2|שקף 33}}.' },
-        { t: 'deep', title: 'להרחבה: עובי השרירים (שקף 62)', h: 'בשקף 62, שכותרתו "משהו על מידות טובות", מוצגת טבלה של עובי השרירים ה-Obturator internus, ה-Iliococcygeus וה-Puborectalis משני הצדדים, בהשוואה בין שתי קבוצות נשים. לדוגמה, ה-Obturator internus בעובי של כ-19–20 מ"מ בשתי הקבוצות. המקור שמצוין בשקף הוא "Keith T. Downing 2007". לא הצלחתי לאתר ולאמת את המאמר המקורי, ולכן כדאי לחזור לשקף עצמו לפרטים{{C2|שקף 62}}.' },
+        { t: 'deep', title: 'להרחבה: עובי השרירים (שקף 62)', h: 'בשקף 62, שכותרתו "משהו על מידות טובות", מוצגת טבלה של עובי השרירים ה-Obturator internus, ה-Iliococcygeus וה-Puborectalis משני הצדדים, בהשוואה בין שתי קבוצות נשים. לדוגמה, ה-Obturator internus בעובי של כ-19–⁠20 מ"מ בשתי הקבוצות. המקור שמצוין בשקף הוא "Keith T. Downing 2007". לא הצלחתי לאתר ולאמת את המאמר המקורי, ולכן כדאי לחזור לשקף עצמו לפרטים{{C2|שקף 62}}.' },
 
         { t: 'h', h: 'שכבה 3: ה-Perineal membrane' },
         { t: 'ul', items: [
           'זוהי שכבה פיברוטית נוקשה בחלק הקדמי, האורוגניטלי, של רצפת האגן{{C2|שקפים 36–37}}.',
           'היא מכילה סיבי שריר חלקים ומשורטטים, ו"מחוררת" בפתחי הנרתיק והשופכה{{C2|שקף 37}}.',
           'בחלקה הקדמי היא תומכת בשופכה, ובחלקה האחורי בנרתיק{{C2|שקף 37}}.',
+          'למי שרוצה לראות את התמונות שאבדו: בשקף 39 מופיעות הפניות לאטלסים, Drake 5.68 ו-Plate 379 (כנראה Netter){{C2|שקף 39}}.',
           'מתחתיה, בשכבה השטחית, נמצאים ה-Crus של הדגדגן, ה-Bulb of vestibule, בלוטת ברתולין (Greater vestibular gland) וה-Corpus cavernosum{{C2|שקף 38}}.',
           'מעליה, ב-Deep perineal space, נמצאים אצל האישה ה-Sphincter urethrae, ה-Compressor urethrae וה-Sphincter urethrovaginalis{{R15|Structure and Function}}. נחזור אליהם ביחידה הבאה.'
         ] },
@@ -331,9 +334,9 @@ window.LESSONS['01'] = {
           '<b>ה-Perineal body</b> הוא מסה של רקמת חיבור בין האנוס לנרתיק. הוא מקבל סיבים מה-External anal sphincter, מה-Bulbocavernosus, מה-Superficial transverse perineal ומהממברנה הפרינאלית, ותומך בקיר האחורי של הנרתיק{{C2|שקף 42}}. ה-Perineal body חיוני לשלמות רצפת האגן, במיוחד אצל נשים{{R14|Introduction}}.'
         ] },
         { t: 'table', head: ['שריר', 'תחל', 'אחז', 'תפקיד', 'עצבוב'], rows: [
-          ['ה-Transverse perineal{{C2|שקף 43}}', 'ה-Ischial tuberosity וה-Ramus', 'ה-Perineal body וה-External anal sphincter', 'ייצוב ה-Perineal body', 'ה-Pudendal nerve ‏(S2–4)'],
-          ['ה-Ischiocavernosus{{C2|שקף 44}}', 'ה-Ischial tuberosity וה-Ramus', 'ה-Crus של הדגדגן (בגבר: של הפין)', 'מעביר דם מה-Crus לגוף הדגדגן או הפין, ועוזר בזקפה', 'ה-Pudendal nerve ‏(S2–4)'],
-          ['ה-Bulbospongiosus ‏(Bulbocavernosus){{C2|שקף 45}}', 'ה-Perineal body', 'ה-Crus וה-Bulb of vestibule, הממברנה הפרינאלית, ה-Corpus cavernosum וגוף הדגדגן. לעיתים חלק מהסיבים ל-Pubis', 'מצר את פתח הנרתיק (יחד עם ה-Puborectalis) ועוזר בזקפת הדגדגן', 'ה-Pudendal nerve ‏(S2–4)']
+          ['ה-Transverse perineal{{C2|שקף 43}}', 'ה-Ischial tuberosity וה-Ramus', 'ה-Perineal body וה-External anal sphincter', 'ייצוב ה-Perineal body', 'ה-Pudendal nerve ‏(S2–⁠4)'],
+          ['ה-Ischiocavernosus{{C2|שקף 44}}', 'ה-Ischial tuberosity וה-Ramus', 'ה-Crus של הדגדגן (בגבר: של הפין)', 'מעביר דם מה-Crus לגוף הדגדגן או הפין, ועוזר בזקפה', 'ה-Pudendal nerve ‏(S2–⁠4)'],
+          ['ה-Bulbospongiosus ‏(Bulbocavernosus){{C2|שקף 45}}', 'ה-Perineal body', 'ה-Crus וה-Bulb of vestibule, הממברנה הפרינאלית, ה-Corpus cavernosum וגוף הדגדגן. לעיתים חלק מהסיבים ל-Pubis', 'מצר את פתח הנרתיק (יחד עם ה-Puborectalis) ועוזר בזקפת הדגדגן', 'ה-Pudendal nerve ‏(S2–⁠4)']
         ] },
         { t: 'deep', title: 'להרחבה: ה-Bulbospongiosus בגבר (שקף 46)', items: [
           'תחל: ה-Perineal body וה-Midline raphe. אחז: סיבי השריר מהצד השני, ה-Perineal membrane וה-Corpus cavernosum{{C2|שקף 46}}.',
@@ -346,21 +349,22 @@ window.LESSONS['01'] = {
 
         { t: 'h', h: 'סיכום העצבוב' },
         { t: 'table', head: ['שכבה', 'עצבוב'], rows: [
-          ['שרירי ה-Levator ani', 'ה-LA nerve משורשי S(2)–3–4 של ה-Sacral plexus, ותרומה חלקית של ה-Pudendal nerve, בעיקר ל-Puborectalis{{C2|שקף 52}}'],
-          ['השכבה השטחית', 'ה-Pudendal nerve ‏(S2–3–4){{C2|שקף 52}}']
-        ], cap: 'גם לפי StatPearls, העצבוב של מבני רצפת האגן מגיע בעיקר משורשי S3–S4 דרך ה-Pudendal nerve{{R13|Anatomy and Function}}.' },
+          ['שרירי ה-Levator ani', 'ה-LA nerve משורשי S(2)–⁠3–4 של ה-Sacral plexus, ותרומה חלקית של ה-Pudendal nerve, בעיקר ל-Puborectalis{{C2|שקף 52}}'],
+          ['השכבה השטחית', 'ה-Pudendal nerve ‏(S2–⁠3–4){{C2|שקף 52}}']
+        ], cap: 'גם לפי StatPearls, העצבוב של מבני רצפת האגן מגיע בעיקר משורשי S3–⁠S4 דרך ה-Pudendal nerve{{R13|Anatomy and Function}}.' },
         { t: 'h', h: 'סרטונים וקריאה מהמצגת' },
         { t: 'video', yt: 'P3BBAMWm2Eo', title: 'שרירי רצפת האגן', cap: 'סרטון מומלץ על שרירי ה-LA, כ-10.5 דקות{{C2|שקף 63}}. אם הסרטון לא נטען: <a href="https://www.youtube.com/watch?v=P3BBAMWm2Eo" target="_blank" rel="noopener">צפייה ביוטיוב</a>.' },
         { t: 'video', yt: 'atldBjFBKjI', title: 'רצפת האגן ואיברי האגן', cap: 'סרטון קצר על רצפת האגן ואיברי האגן, 2:45 דקות{{C2|שקף 63}}. אם הסרטון לא נטען: <a href="https://www.youtube.com/watch?v=atldBjFBKjI" target="_blank" rel="noopener">צפייה ביוטיוב</a>.' },
-        { t: 'p', h: 'לקריאה בבית, לפי המצגת: <a href="https://www.physio-pedia.com/Pelvic_Floor_Anatomy" target="_blank" rel="noopener">הסבר על מבנה רצפת האגן ב-Physiopedia</a>{{R21|הדף כולו}}{{C2|שקף 63}}.' }
+        { t: 'p', h: 'לקריאה בבית, לפי המצגת: <a href="https://www.physio-pedia.com/Pelvic_Floor_Anatomy" target="_blank" rel="noopener">הסבר על מבנה רצפת האגן ב-Physiopedia</a>{{R21|הדף כולו}}{{C2|שקף 63}}. בסוף המצגת יש גם קישור ל<a href="https://medicine.uams.edu/neurobiology/?s=pelvic+floor+muscles" target="_blank" rel="noopener">טבלאות של השרירים והעצמות באתר אוניברסיטת ארקנסו (UAMS)</a>, תחת הכותרת "לעיונכן"{{C2|שקף 91}}.' },
+        { t: 'note', h: 'בסוף מצגת האנטומיה יש שקף בשם "ד"ר ארנולד קגל". הייתה בו רק תמונה, והיא לא שרדה בהמרה{{C1|שקף "ד"ר ארנולד קגל"}}.' }
       ],
       quiz: [
-        { q: 'מהי השכבה העמוקה ביותר של רצפת האגן לפי המצגת?', o: ['ה-Endopelvic fascia', 'שרירי ה-Levator ani', 'ה-Perineal membrane', 'השכבה השטחית'], a: 0, ex: 'הסדר מהעמוקה לשטחית: Endopelvic fascia, ‏Levator ani, ‏Perineal membrane והשכבה השטחית{{C2|שקף 16}}.' },
+        { q: 'מהי השכבה העמוקה ביותר של רצפת האגן לפי המצגת?', o: ['ה-Endopelvic fascia', 'שרירי ה-Levator ani', 'ה-Perineal membrane', 'השכבה השטחית'], a: 0, ex: 'בשקף השכבות ממוספרות בסדר הזה, מהעמוקה לשטחית: Endopelvic fascia, ‏Levator ani, ‏Perineal membrane והשכבה השטחית{{C2|שקף 16}}.' },
         { q: 'מהם שלושת החלקים של ה-Levator ani?', o: ['Puborectalis, ‏Pubococcygeus, ‏Iliococcygeus', 'Puborectalis, ‏Coccygeus, ‏Bulbospongiosus', 'Iliococcygeus, ‏Piriformis, ‏Obturator internus', 'Ischiocavernosus, ‏Transverse perineal, ‏Coccygeus'], a: 0, ex: 'ה-LA בנוי מ-Puborectalis, ‏Pubococcygeus ו-Iliococcygeus{{R2|Introduction}}. ה-Coccygeus לא תמיד נחשב חלק ממנו{{C2|שקף 26}}.' },
         { q: 'איזה שריר שולט על הזווית האנורקטלית?', o: ['ה-Puborectalis', 'ה-Iliococcygeus', 'ה-Coccygeus', 'ה-Ischiocavernosus'], a: 0, ex: 'ה-Puborectalis שולט על הזווית האנורקטלית ומהווה חלק מה-External anal sphincter{{C2|שקפים 23, 31}}.' },
         { q: 'מאיזה מבנה יוצא ה-Iliococcygeus?', o: ['מה-ATLA שעל ה-Obturator fascia ומה-Ischial spine', 'מהחלק האחורי של ה-Pubis', 'מה-Perineal body', 'מה-Ischial tuberosity'], a: 0, ex: 'ה-Iliococcygeus יוצא מה-ATLA ומה-Ischial spine{{C2|שקפים 25, 28}}{{R2|Origin, Course, and Insertion}}.' },
         { q: 'מאילו שרירים מקבל ה-Perineal body סיבים?', o: ['ה-External anal sphincter, ה-Bulbocavernosus וה-Superficial transverse perineal', 'ה-Iliococcygeus וה-Coccygeus', 'ה-Piriformis וה-Obturator internus', 'ה-Ischiocavernosus בלבד'], a: 0, ex: 'ה-Perineal body מקבל סיבים מה-EAS, ה-Bulbocavernosus, ה-Superficial transverse perineal ומהממברנה הפרינאלית{{C2|שקף 42}}.' },
-        { q: 'מהו העצבוב של שרירי השכבה השטחית?', o: ['ה-Pudendal nerve ‏(S2–4)', 'ה-Genitofemoral nerve', 'ה-Hypogastric plexus', 'ה-Obturator nerve'], a: 0, ex: 'כל שרירי השכבה השטחית מעוצבבים מה-Pudendal nerve ‏(S2–4){{C2|שקפים 43–45, 52}}.' },
+        { q: 'מהו העצבוב של שרירי השכבה השטחית?', o: ['ה-Pudendal nerve ‏(S2–⁠4)', 'ה-Genitofemoral nerve', 'ה-Hypogastric plexus', 'ה-Obturator nerve'], a: 0, ex: 'כל שרירי השכבה השטחית מעוצבבים מה-Pudendal nerve ‏(S2–⁠4){{C2|שקפים 43–45, 52}}.' },
         { q: 'מה תפקיד ה-Anococcygeal ligament בזמן התרוקנות?', o: ['מקבע את הקיר האחורי של האנוס כדי שפי הטבעת יוכל להיפתח', 'סוגר את פי הטבעת', 'מעביר דם לגוף הדגדגן', 'מרים את צוואר השלפוחית'], a: 0, ex: 'הרצועה מקבעת את הקיר האחורי של האנוס כששרירי רצפת האגן מתרפים, כדי לאפשר לפי הטבעת להיפתח. היא גם בולמת זעזועים{{C2|שקף 49}}.' }
       ]
     },
@@ -378,25 +382,26 @@ window.LESSONS['01'] = {
           ['Sump-pump', 'משאבה', 'ניקוז נוזלים מהאזור']
         ], cap: 'חמשת ה-S{{C2|שקף 64}}. לפי StatPearls, רצפת האגן תומכת באיברים, שומרת על שליטה בסוגרים, מאפשרת התרוקנות של שתן וצואה, ותורמת לנשימה וליציבות האזור המותני-אגני{{R1|Introduction}}.' },
 
-        { t: 'h', h: 'Sphincteric: איך השופכה נסגרת' },
-        { t: 'p', h: 'השריר המשורטט של השופכה נמצא לאורך כ-3/5 מאורכה, ובנוי משני חלקים. בשני השלישים העליונים: ה-Sphincter urethrae. בשליש התחתון: שתי רצועות שריר, ה-Urethrovaginal sphincter וה-Compressor urethrae{{C2|שקף 68}}{{R15|Structure and Function}}.' },
+        { t: 'h', h: 'סגירה (Sphincteric): איך השופכה נסגרת' },
+        { t: 'p', h: 'לפי המצגת, השריר המשורטט של השופכה משתרע לאורך כ-3/5 מאורך השופכה, ובנוי משני חלקים. שני השלישים העליונים של השריר הם ה-Sphincter urethrae. השליש התחתון של השריר בנוי משתי רצועות שריר: ה-Urethrovaginal sphincter וה-Compressor urethrae{{C2|שקף 68}}.' },
+        { t: 'p', h: 'סקירה עדכנית מחלקת את השופכה לחמישיות. בחמישית השנייה והשלישית יש שכבה חיצונית של שריר משורטט מעגלי, ובחמישית הרביעית עוברת מעל השופכה קשת של שריר משורטט, שהיא ה-Compressor urethrae וה-Urethrovaginal sphincter. שני המקטעים האלה נקראים יחד "הסוגר החיצוני של השופכה"{{R22|פרק 2: Anatomy}}.' },
         { t: 'note', h: 'בשקף 67 ה-Deep transverse perineal מסומן כ"בוטל"{{C2|שקף 67}}. ב-StatPearls, השרירים שמתוארים ב-Deep perineal space של האישה הם שלושת השרירים שלמעלה{{R15|Structure and Function}}.' },
         { t: 'video', yt: 'q0Ax3rLFc6M', start: 245, title: 'השרירים הסוגרים את השופכה', cap: 'הסרטון שהמצגת ממליצה עליו, מדקה 4:05. ההנחיה בשקף: להתעלם מהמונחים Deep perineal pouch ו-Superficial perineal pouch{{C2|שקף 69}}. אם הסרטון לא נטען: <a href="https://www.youtube.com/watch?v=q0Ax3rLFc6M&t=245s" target="_blank" rel="noopener">צפייה ביוטיוב</a>.' },
         { t: 'ul', items: [
-          'השריר החלק של השופכה: הסיבים האלכסוניים והמעגליים הם המשך של הדטרוזור והחלק הפנימי של הסוגר. תפקידם לסגור את הפתחים במנוחה{{C2|שקף 71}}.',
+          'השריר החלק של השופכה: הסיבים האלכסוניים והמעגליים הם המשך של הדטרוזור, והם החלק הפנימי של הסוגר המשורטט. תפקידם לסגור את הפתחים במנוחה{{C2|שקף 71}}.',
           'הסיבים האורכיים מקצרים ומרחיבים את השופכה, ועוזרים בהתרוקנות{{C2|שקף 71}}.'
         ] },
-        { t: 'fig', d: 'closure', cap: 'מערכת הסגירה של השופכה (The sphincteric closure system): שלושה רכיבים, וכל אחד תורם כשליש ללחץ הסגירה{{C2|שקפים 72–73}}. כך גם בסקירה של Ashton-Miller ו-DeLancey: השריר המשורטט, השריר החלק והמרכיב הוסקולרי שבתת-הרירית תורמים כנראה באופן שווה{{R18|פרק "The Urinary Sphincteric Closure System"}}.' },
+        { t: 'p', h: 'מערכת הסגירה של השופכה (The sphincteric closure system) בנויה משלושה רכיבים, וכל אחד מהם תורם כשליש ללחץ הסגירה{{C2|שקפים 72–73}}. כך גם בסקירה של Ashton-Miller ו-DeLancey: השריר המשורטט, השריר החלק והמרכיב הוסקולרי שבתת-הרירית תורמים כנראה באופן שווה{{R18|פרק "The Urinary Sphincteric Closure System"}}.' },
         { t: 'ul', items: [
           'השריר המשורטט: ברובו סיבי Type 1, איטיים. שומר על טונוס קבוע ומאפשר להתאים אותו לפי הצורך{{C2|שקף 72}}.',
           'השריר החלק: אחראי על היצרות הפתח ועל קיצור השופכה{{C2|שקף 72}}.',
           'אספקת הדם בתת-הרירית: מגדילה את הנפח ומספקת חמצן לרקמות. היא תלויה בהורמונים: כשיש מספיק אסטרוגן היא אוטמת, "כמו גומייה סביב ברז". בהיעדר אסטרוגן הרקמה אטרופית יותר{{C2|שקף 73}}.'
         ] },
         { t: 'p', h: 'בנוסף, כיווץ מקסימלי של ה-Pubococcygeus וה-Puborectalis מעלה את לחץ הסגירה בנרתיק ב-46%{{C2|שקף 76}}.' },
-        { t: 'key', h: '<b>עקרון הערסל (Hammock):</b> עלייה בלחץ התוך-בטני דוחסת את השופכה כנגד שכבת התמיכה שמתחתיה, וכך סוגרת אותה{{C2|שקף 77}}. לפי DeLancey, השופכה מונחת על שכבה תומכת שבנויה מה-Endopelvic fascia ומהקיר הקדמי של הנרתיק. השכבה יציבה בזכות החיבור הלטרלי שלה ל-ATFP ול-Levator ani{{R17|Abstract – Results}}.' },
+        { t: 'key', h: '<b>עקרון הערסל (Hammock):</b> עלייה בלחץ התוך-בטני דוחסת את השופכה כנגד שכבת התמיכה שמתחתיה, וכך סוגרת אותה. המצגת מייחסת את העיקרון ל-"Delancy 2007"{{C2|שקף 77}}. המאמר המקורי שבו DeLancey הציג את "השערת הערסל" הוא מ-1994. לפי המאמר הזה, השופכה מונחת על שכבה תומכת שבנויה מה-Endopelvic fascia ומהקיר הקדמי של הנרתיק. השכבה יציבה בזכות החיבור הלטרלי שלה ל-ATFP ול-Levator ani{{R17|Abstract – Results}}.' },
         { t: 'deep', title: 'להרחבה: מה הראה המחקר המאוחר יותר', h: 'בסקירה מ-2010 DeLancey מסכם שלחץ הסגירה המקסימלי של השופכה היה נמוך ב-43% אצל נשים עם דליפת שתן במאמץ, בהשוואה לנשים בלי תסמינים. לפי הסקירה, התמיכה בשופכה אינה הגורם העיקרי לדליפה במאמץ{{R19|Abstract}}. כלומר, גם הערסל וגם מנגנון הסגירה חשובים, אבל המחקר מצביע על מנגנון הסגירה כגורם המרכזי יותר.' },
 
-        { t: 'h', h: 'Support: תמיכת איברי האגן' },
+        { t: 'h', h: 'תמיכה (Support): תמיכת איברי האגן' },
         { t: 'table', head: ['מבנה', 'תפקיד'], rows: [
           ['ה-Pubovesical ligament', 'שומרת על ההטיה הקדמית של השלפוחית{{C2|שקף 79}}'],
           ['ה-Pubourethral ligament', 'מקבעת את הדופן הקדמית של השופכה כששרירי רצפת האגן מתרפים להתרוקנות{{C2|שקף 79}}'],
@@ -431,27 +436,27 @@ window.LESSONS['01'] = {
 
   cards: [
     { id: 'c01', f: 'מה הגבול בין חלל הבטן לחלל האגן?', b: 'הפריטונאום{{C2|שקף 3}}' },
-    { id: 'c02', f: 'External oblique מול Internal oblique: לאיזה צד הרוטציה?', b: 'ה-External: לצד הנגדי. ה-Internal: לאותו צד{{C1|שקף "קיר הבטן"}}' },
+    { id: 'c02', f: 'ה-External oblique מול ה-Internal oblique: לאיזה צד הרוטציה?', b: 'ה-External: לצד הנגדי. ה-Internal: לאותו צד{{C1|שקף "קיר הבטן"}}' },
     { id: 'c03', f: 'זווית הקשת הפובית: אישה מול גבר', b: 'אישה 80°–90°, גבר 50°–60° (לפי הטבלה בשקף 5){{C2|שקף 5}}' },
     { id: 'c04', f: 'מהם המפרקים הסינוביאליים של האגן?', b: 'שני מפרקי ה-Sacro-iliac{{C2|שקף 7}}' },
     { id: 'c05', f: 'מה בונה את הדופן הלטרלית של האגן?', b: 'ה-Obturator internus, ה-Piriformis, ה-Sacrotuberous ligament וה-Sacrospinous ligament{{C2|שקף 11}}' },
     { id: 'c06', f: 'מה מקודד ה-SRY?', b: 'את ה-TDF, שבזכותו הגונדה הופכת לאשך{{C1|שקף "קביעת מין הילוד"}}' },
-    { id: 'c07', f: 'AMH וטסטוסטרון: אילו תאים מייצרים כל אחד?', b: 'ה-AMH מתאי Sertoli, והטסטוסטרון מתאי Leydig{{C1|שקף "קביעת מין הילוד"}}' },
-    { id: 'c08', f: 'מה נוצר מצינורות מולר?', b: 'החצוצרות, הרחם והחלק העליון של הנרתיק{{R4|התמיינות איברי המין הפנימיים}}' },
-    { id: 'c09', f: 'מידות השפתיים הגדולות', b: 'אורך 7–9 ס"מ, רוחב 2–4 ס"מ{{C1|שקף "שפתיים גדולות"}}' },
-    { id: 'c10', f: 'איזה עצב מעצבב את שריר ה-Dartos בשפתיים הגדולות?', b: 'ה-Genitofemoral nerve ‏(L1–2){{C1|שקף "עצבוב שפתיים גדולות"}}' },
-    { id: 'c11', f: 'בלוטות ברתולין ו-Skene: איפה הן לפי "השעון"?', b: 'ברתולין בשעה 5 ו-7. Skene בשעה 1 ו-3{{C1|שקף "וסטיבול"}}' },
+    { id: 'c07', f: 'ה-AMH והטסטוסטרון: אילו תאים מייצרים כל אחד?', b: 'ה-AMH מתאי Sertoli, והטסטוסטרון מתאי Leydig{{C1|שקף "קביעת מין הילוד"}}' },
+    { id: 'c08', f: 'מה נוצר מצינורות מולר?', b: 'החצוצרות, הרחם, צוואר הרחם והחלק העליון של הנרתיק{{R23|Development}}. לפי המצגת שני השלישים העליונים{{C1|שקף "נרתיק" (השני)}}, ולפי StatPearls השליש העליון' },
+    { id: 'c09', f: 'מידות השפתיים הגדולות', b: 'אורך 7–⁠9 ס"מ, רוחב 2–⁠4 ס"מ{{C1|שקף "שפתיים גדולות"}}' },
+    { id: 'c10', f: 'איזה עצב מעצבב את שריר ה-Dartos בשפתיים הגדולות?', b: 'ה-Genitofemoral nerve ‏(L1–⁠2){{C1|שקף "עצבוב שפתיים גדולות"}}' },
+    { id: 'c11', f: 'בלוטות ברתולין ו-Skene: איפה הן לפי "השעון"?', b: 'ברתולין בשעה 5 ו-7, ובלוטות ה-Skene בשעה 1 ו-3{{C1|שקף "וסטיבול"}}. השעה של ה-Skene אולי שגויה בשקף, כדאי לברר' },
     { id: 'c12', f: 'ה-Crura של הדגדגן נמצאות אינפריורית לאיזה שריר?', b: 'ל-Ischiocavernosus{{C1|שקף "דגדגן"}}' },
-    { id: 'c13', f: 'אורך הנרתיק וה-pH שלו', b: 'אורך 7–9 ס"מ, ו-pH של 3.5–4.5{{C1|שקפים "נרתיק"}}' },
+    { id: 'c13', f: 'אורך הנרתיק וה-pH שלו', b: 'אורך 7–⁠9 ס"מ, ו-pH של 3.5–⁠4.5{{C1|שקפים "נרתיק"}}' },
     { id: 'c14', f: 'שלושת העצבובים של הנרתיק', b: 'סימפטטי מה-Hypogastric nerve, פאראסימפטטי מה-Sacral nerve, סומטי מה-Pudendal nerve{{C1|שקף "נרתיק" (השני)}}' },
-    { id: 'c15', f: 'שלוש שכבות דופן הרחם', b: 'Perimetrium ‏(סרוזית), ‏Myometrium ‏(שריר, 1.5–2.5 ס"מ), ‏Endometrium ‏(רירית){{C1|שקף "מבנה הרחם"}}' },
+    { id: 'c15', f: 'שלוש שכבות דופן הרחם', b: 'שכבה סרוזית (Perimetrium), שכבת שריר (Myometrium, 1.5–⁠2.5 ס"מ) ורירית (Endometrium){{C1|שקף "מבנה הרחם"}}' },
     { id: 'c16', f: 'רצועות הרחם: עליונות ותחתונות', b: 'עליונות: Broad ו-Round. תחתונות: Cardinal ו-Sacro-uterine{{C1|שקף "תמיכת הרחם"}}' },
     { id: 'c17', f: 'הרחם בהריון: שבוע 12, שבוע 20, שבוע 40', b: 'בשבוע 12 יוצא מהאגן, בשבוע 20 מגיע לטבור, ובשבוע 40 ל-Xiphoid{{C1|שקף "הרחם ההריוני"}}' },
-    { id: 'c18', f: '"בנק הביציות"', b: '6–7 מיליון בשבוע 20 לעובר, 2 מיליון בלידה, וכ-400 ביוצים{{C1|שקף "שחלות"}}' },
+    { id: 'c18', f: '"בנק הביציות"', b: '6–⁠7 מיליון בשבוע 20 לעובר, 2 מיליון בלידה, וכ-400 ביוצים{{C1|שקף "שחלות"}}' },
     { id: 'c19', f: 'שכבות ה-Detrusor מבפנים החוצה', b: 'אורכית, מעגלית, אורכית{{C1|שקף "שלפוחית השתן"}}{{R12|Muscles}}' },
     { id: 'c20', f: 'תפקיד הטריגון', b: 'סוגר את פתחי השופכנים בזמן התכווצות השלפוחית, כדי למנוע ריפלוקס לכליות{{C1|שקף "טריגון"}}' },
     { id: 'c21', f: 'ארבע שכבות רצפת האגן, מהעמוקה לשטחית', b: 'ה-Endopelvic fascia, ה-Levator ani, ה-Perineal membrane והשכבה השטחית{{C2|שקף 16}}' },
-    { id: 'c22', f: 'שלושת חלקי ה-Levator ani', b: 'Puborectalis, ‏Pubococcygeus, ‏Iliococcygeus{{R2|Introduction}}' },
+    { id: 'c22', f: 'שלושת חלקי ה-Levator ani', b: 'ה-Puborectalis, ה-Pubococcygeus וה-Iliococcygeus{{R2|Introduction}}' },
     { id: 'c23', f: 'מה שני הפתחים בשכבת ה-LA?', b: 'ה-Urogenital hiatus (Levator ani hiatus) וה-Rectal hiatus{{C2|שקף 22}}' },
     { id: 'c24', f: 'תפקיד ה-Puborectalis', b: 'שליטה על הזווית האנורקטלית. מהווה חלק מה-External anal sphincter{{C2|שקפים 23, 31}}' },
     { id: 'c25', f: 'תפקיד ה-Iliococcygeus', b: '"מדף" אופקי לאיברי האגן. מרים את פי הטבעת ואת צוואר השלפוחית{{C2|שקפים 25, 32}}' },
@@ -459,9 +464,9 @@ window.LESSONS['01'] = {
     { id: 'c27', f: 'מה עושה ה-Perineal membrane?', b: 'תומכת בשופכה מקדימה ובנרתיק מאחור. "מחוררת" בפתחי הנרתיק והשופכה{{C2|שקף 37}}' },
     { id: 'c28', f: 'מה נכנס ל-Perineal body?', b: 'ה-EAS, ה-Bulbocavernosus, ה-Superficial transverse perineal והממברנה הפרינאלית{{C2|שקף 42}}' },
     { id: 'c29', f: 'תפקיד ה-Bulbospongiosus באישה', b: 'מצר את פתח הנרתיק (יחד עם ה-PR) ועוזר בזקפת הדגדגן{{C2|שקף 45}}' },
-    { id: 'c30', f: 'עצבוב ה-LA מול השכבה השטחית', b: 'ה-LA: ה-LA nerve משורשי S(2)–3–4. השכבה השטחית: ה-Pudendal nerve ‏(S2–4){{C2|שקף 52}}' },
-    { id: 'c31', f: 'חמשת ה-S', b: 'Sphincteric, ‏Support, ‏Stabilization, ‏Sexual, ‏Sump-pump{{C2|שקף 64}}' },
-    { id: 'c32', f: 'מבנה השריר המשורטט של השופכה', b: 'שני השלישים העליונים: Sphincter urethrae. השליש התחתון: Urethrovaginal sphincter ו-Compressor urethrae{{C2|שקף 68}}' },
+    { id: 'c30', f: 'עצבוב ה-LA מול השכבה השטחית', b: 'ה-LA: ה-LA nerve משורשי S(2)–⁠3–4. השכבה השטחית: ה-Pudendal nerve ‏(S2–⁠4){{C2|שקף 52}}' },
+    { id: 'c31', f: 'חמשת ה-S', b: 'סגירה (Sphincteric), תמיכה (Support), ייצוב (Stabilization), תפקוד מיני (Sexual) ומשאבה (Sump-pump){{C2|שקף 64}}' },
+    { id: 'c32', f: 'מבנה השריר המשורטט של השופכה', b: 'השריר משתרע לאורך כ-3/5 מהשופכה. שני השלישים העליונים של השריר: ה-Sphincter urethrae. השליש התחתון של השריר: ה-Urethrovaginal sphincter וה-Compressor urethrae{{C2|שקף 68}}' },
     { id: 'c33', f: 'שלושת השלישים של מערכת הסגירה', b: 'שריר משורטט, שריר חלק ואספקת דם בתת-הרירית{{C2|שקף 72}}{{R18|"The Urinary Sphincteric Closure System"}}' },
     { id: 'c34', f: 'מה עושה כיווץ מקסימלי של ה-PC וה-PR?', b: 'מעלה את לחץ הסגירה בנרתיק ב-46%{{C2|שקף 76}}' },
     { id: 'c35', f: 'שלוש רמות התמיכה של DeLancey', b: 'רמה I: השעיה (Cardinal/Paracolpium). רמה II: חיבור לטרלי ל-Arcus tendineus. רמה III: היתוך עם ה-Perineal membrane, ה-LA וה-Perineal body{{R16|Abstract – Results}}' },
