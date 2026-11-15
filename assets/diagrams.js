@@ -69,7 +69,7 @@ window.DIAGRAMS = (function () {
       b += `<path d="M120 40 Q150 100 170 150" fill="none" stroke="${C.organ}" stroke-width="9"/><path d="M380 40 Q350 100 330 150" fill="none" stroke="${C.organ}" stroke-width="9"/>`;
       b += `<circle cx="170" cy="150" r="7" fill="${C.ink}"/><circle cx="330" cy="150" r="7" fill="${C.ink}"/><circle cx="250" cy="295" r="8" fill="${C.ink}"/>`;
       b += `<rect x="238" y="300" width="24" height="80" fill="${C.organ}" stroke="${C.ink}"/>`;
-      b += T(250, 225, 'טריגון', { fw: 800, fs: 16, c: C.muscle });
+      b += T(250, 225, 'טריגון', { fw: 800, fs: 16, c: '#5a1f16' });
       b += T(95, 25, 'שופכן – Ureter', { fs: 13 }) + T(405, 25, 'שופכן – Ureter', { fs: 13 });
       b += T(150, 180, 'פתח השופכן', { fs: 12, c: C.muted }) + T(350, 180, 'פתח השופכן', { fs: 12, c: C.muted });
       b += T(360, 360, 'צוואר השלפוחית ← השופכה (Urethra)', { fs: 13 });
@@ -87,9 +87,9 @@ window.DIAGRAMS = (function () {
       ];
       let b = '';
       // איברים מעל
-      b += `<ellipse cx="190" cy="45" rx="55" ry="30" fill="${C.organ}"/>` + T(190, 50, 'שלפוחית', { fs: 13, fw: 700 });
-      b += `<ellipse cx="320" cy="45" rx="45" ry="30" fill="${C.muscle2}" opacity=".7"/>` + T(320, 50, 'רחם', { fs: 13, fw: 700 });
-      b += `<ellipse cx="440" cy="45" rx="50" ry="30" fill="#a7b892"/>` + T(440, 50, 'רקטום', { fs: 13, fw: 700 });
+      b += `<ellipse cx="190" cy="45" rx="55" ry="30" fill="${C.organ}"/>` + T(190, 50, 'שלפוחית', { fs: 13, fw: 700, c: '#1f2a2c' });
+      b += `<ellipse cx="320" cy="45" rx="45" ry="30" fill="${C.muscle2}" opacity=".7"/>` + T(320, 50, 'רחם', { fs: 13, fw: 700, c: '#1f2a2c' });
+      b += `<ellipse cx="440" cy="45" rx="50" ry="30" fill="#a7b892"/>` + T(440, 50, 'רקטום', { fs: 13, fw: 700, c: '#1f2a2c' });
       rows.forEach((r, i) => {
         const y = 90 + i * 72;
         b += `<rect x="40" y="${y}" width="540" height="58" rx="14" fill="${r[3]}" opacity="${i === 2 ? .85 : .9}"/>`;

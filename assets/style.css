@@ -57,6 +57,8 @@ th,td{border:1px solid var(--line);padding:8px;text-align:start;vertical-align:t
 th{background:var(--soft);color:var(--brand)}
 .en{direction:ltr;unicode-bidi:isolate;display:inline-block}
 .cite{display:inline-block;font-size:12px;line-height:1;vertical-align:super;background:var(--chip);color:var(--brand);border:1px solid var(--line);border-radius:6px;padding:3px 5px;margin:0 2px;cursor:pointer;font-weight:700;font-family:inherit}
+.cite{position:relative}
+.cite::after{content:'';position:absolute;inset:-12px -8px}
 .cite:hover{background:var(--brand);color:#fff}
 figure{margin:16px 0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:10px}
 figure svg{width:100%;height:auto;display:block}

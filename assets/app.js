@@ -66,10 +66,19 @@
       ${loc ? `<p>המיקום במקור: <span class="loc">${esc(loc)}</span></p>` : ''}
       ${s.url ? `<p><a class="btn small" href="${s.url}" target="_blank" rel="noopener">פתיחת המקור ↗</a></p>` : ''}
       ${s.note ? `<p class="note">${s.note}</p>` : ''}`;
+    lastTrigger = document.activeElement;
     sheet.hidden = false;
+    sheet.querySelector('.sheet-x').focus();
   }
-  sheet.addEventListener('click', e => { if (e.target.closest('[data-close]')) sheet.hidden = true; });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') sheet.hidden = true; });
+  let lastTrigger = null;
+  function closeSheet() {
+    if (sheet.hidden) return;
+    sheet.hidden = true;
+    if (lastTrigger && document.contains(lastTrigger)) lastTrigger.focus();
+    lastTrigger = null;
+  }
+  sheet.addEventListener('click', e => { if (e.target.closest('[data-close]')) closeSheet(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSheet(); });
   app.addEventListener('click', e => {
     const b = e.target.closest('.cite'); if (!b) return;
     e.stopPropagation();
@@ -190,19 +199,21 @@
     window.scrollTo(0, 0);
   }
 
+  const ROUND = 15;
   function quizPage(L) {
     app.dataset.lesson = L.id;
     setCrumbs([{ t: 'ראשי', href: '#/' }, { t: `שיעור ${Number(L.id)}`, href: `#/l/${L.id}` }, { t: 'מבחן מסכם' }]);
-    const all = shuffle(L.units.flatMap(u => u.quiz.map(q => Object.assign({ unit: u.title }, q))));
+    const pool = L.units.flatMap(u => u.quiz.map(q => Object.assign({ unit: u.title }, q)));
+    const all = shuffle(pool).slice(0, ROUND);
     let k = 0, right = 0; const wrong = [];
     function show() {
       if (k >= all.length) return finish();
       const q = all[k];
       app.innerHTML = `
-        <span class="tag">שאלה ${k + 1} מתוך ${all.length}</span><span class="tag">${esc(q.unit)}</span>
+        <span class="tag">סבב של ${all.length} שאלות מתוך ${pool.length}</span><span class="tag">שאלה ${k + 1}</span><span class="tag">${esc(q.unit)}</span>
         <div class="bar"><i style="width:${Math.round(k / all.length * 100)}%"></i></div>
         ${questionHTML(q, L, k, true)}
-        <div class="btnrow"><button class="btn" id="nx" hidden>לשאלה הבאה ←</button></div>`;
+        <div class="btnrow"><button class="btn" id="nx" hidden>${k + 1 < all.length ? 'לשאלה הבאה ←' : 'לסיכום הסבב ←'}</button></div>`;
       const qEl = app.querySelector('.q');
       qEl.addEventListener('click', e => {
         const b = e.target.closest('.opt'); if (!b) return;
@@ -216,11 +227,12 @@
       const sc = Math.round(right / all.length * 100);
       const s = ls(L.id); if (s.best == null || sc > s.best) { s.best = sc; save(state); }
       app.innerHTML = `
-        <h1 class="center">סיימת!</h1>
+        <h1 class="center">סיימת את הסבב</h1>
         <div class="score">${sc}%</div>
-        <p class="center muted">${right} תשובות נכונות מתוך ${all.length}</p>
+        <p class="center muted">${right} תשובות נכונות מתוך ${all.length}. בכל סבב נבחרות ${ROUND} שאלות אקראיות מתוך ${pool.length}.</p>
         ${wrong.length ? `<h2>כדאי לחזור על:</h2>${wrong.map(q => `<div class="card"><div class="muted" style="font-size:14px">${esc(q.unit)}</div><b>${rich(q.q, L)}</b><p>התשובה: ${rich(q.o[q.a], L)}</p><div class="explain">${rich(q.ex, L)}</div></div>`).join('')}` : '<p class="center">כל התשובות נכונות 🎉</p>'}
-        <div class="btnrow"><a class="btn" href="#/l/${L.id}/quiz" onclick="location.reload()">מבחן חדש</a><a class="btn ghost" href="#/l/${L.id}">חזרה לשיעור</a></div>`;
+        <div class="btnrow"><button class="btn" id="again">סבב נוסף</button><a class="btn ghost" href="#/l/${L.id}">חזרה לשיעור</a></div>`;
+      app.querySelector('#again').onclick = () => { quizPage(L); window.scrollTo(0, 0); };
     }
     show();
   }
@@ -229,10 +241,17 @@
     app.dataset.lesson = L.id;
     setCrumbs([{ t: 'ראשי', href: '#/' }, { t: `שיעור ${Number(L.id)}`, href: `#/l/${L.id}` }, { t: 'כרטיסיות' }]);
     const s = ls(L.id);
-    let deck = shuffle(L.cards.map((c, i) => Object.assign({ i }, c)).filter(c => !s.known[c.i]));
+    // מעבר ממפתח לפי מיקום במערך למזהה קבוע של כרטיסייה
+    if (!s.knownV2) {
+      const old = s.known || {}; s.known = {};
+      Object.keys(old).forEach(k => { const c = L.cards[+k]; if (c && c.id) s.known[c.id] = true; });
+      s.knownV2 = true; save(state);
+    }
+    const cid = (c, i) => c.id || ('i' + i);
+    let deck = shuffle(L.cards.map((c, i) => Object.assign({ key: cid(c, i) }, c)).filter(c => !s.known[c.key]));
     const total = L.cards.length;
     function show() {
-      const knownN = Object.keys(s.known).length;
+      const knownN = L.cards.filter((c, i) => s.known[cid(c, i)]).length;
       if (!deck.length) {
         app.innerHTML = `<h1 class="center">כל הכרטיסיות סומנו כידועות 🎉</h1>
           <p class="center muted">${knownN} מתוך ${total}</p>
@@ -254,7 +273,7 @@
         <p class="center"><button class="btn ghost small" id="reset">איפוס כרטיסיות</button></p>`;
       const fc = app.querySelector('#fc');
       fc.addEventListener('click', e => { if (!e.target.closest('.cite')) fc.classList.toggle('flipped'); });
-      app.querySelector('#know').onclick = () => { s.known[c.i] = true; save(state); deck.shift(); show(); };
+      app.querySelector('#know').onclick = () => { s.known[c.key] = true; save(state); deck.shift(); show(); };
       app.querySelector('#again').onclick = () => { deck.push(deck.shift()); show(); };
       app.querySelector('#reset').onclick = () => { s.known = {}; save(state); cardsPage(L); };
     }
@@ -276,7 +295,7 @@
 
   /* ---------- ניתוב ---------- */
   function route() {
-    sheet.hidden = true;
+    closeSheet();
     const p = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
     if (p[0] === 'l' && LESSONS[p[1]]) {
       const L = LESSONS[p[1]];
