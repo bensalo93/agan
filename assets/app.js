@@ -61,8 +61,8 @@
     const s = lesson.sources[id]; const idx = srcIndex(lesson);
     sheetContent.innerHTML = `
       <div class="src-type">${esc(s.type)} · מקור ${idx[id]}</div>
-      <h3 id="sheet-title">${s.title}</h3>
-      <p class="muted">${s.cite}</p>
+      <h3 id="sheet-title" dir="auto">${s.title}</h3>
+      <p class="muted" dir="auto">${s.cite}</p>
       ${loc ? `<p>המיקום במקור: <span class="loc">${esc(loc)}</span></p>` : ''}
       ${s.url ? `<p><a class="btn small" href="${s.url}" target="_blank" rel="noopener">פתיחת המקור ↗</a></p>` : ''}
       ${s.note ? `<p class="note">${s.note}</p>` : ''}`;
@@ -95,7 +95,7 @@
       case 'key': return `<div class="block key">${R(b.h)}</div>`;
       case 'note': return `<div class="block note">${R(b.h)}</div>`;
       case 'deep': return `<details class="block deep"><summary>${R(b.title)}</summary>${b.items ? `<ul>${b.items.map(i => `<li>${R(i)}</li>`).join('')}</ul>` : `<p>${R(b.h)}</p>`}</details>`;
-      case 'table': return `<div class="block tbl"><table><thead><tr>${b.head.map(h => `<th>${R(h)}</th>`).join('')}</tr></thead><tbody>${b.rows.map(r => `<tr>${r.map(c => `<td>${R(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>${b.cap ? `<p class="muted" style="font-size:14px">${R(b.cap)}</p>` : ''}</div>`;
+      case 'table': return `<div class="block tbl"><table class="${b.head.length >= 4 ? 'stack' : ''}"><thead><tr>${b.head.map(h => `<th>${R(h)}</th>`).join('')}</tr></thead><tbody>${b.rows.map(r => `<tr>${r.map((c, ci) => `<td data-label="${esc(b.head[ci].replace(/<[^>]+>/g, ''))}">${R(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>${b.cap ? `<p class="muted" style="font-size:14px">${R(b.cap)}</p>` : ''}</div>`;
       case 'fig': {
         const svg = DIAGRAMS[b.d] ? DIAGRAMS[b.d]() : `<p class="muted">תרשים חסר: ${esc(b.d)}</p>`;
         return `<figure class="schema"><div class="badge schema-b">סכמה להמחשה בלבד – לא איור אנטומי. ציירתי אותה לפי המקורות שבהפניות, ואף מומחה לא בדק אותה.</div>${svg}<figcaption>${R(b.cap)}</figcaption></figure>`;
@@ -180,7 +180,7 @@
     app.innerHTML = `
       <span class="tag">יחידה ${i + 1} מתוך ${L.units.length}</span><span class="tag">כ-${u.min} דקות</span>
       <h1>${esc(u.title)}</h1>
-      <p class="hint-tap">המספרים הקטנים הם הפניות למקורות. אפשר ללחוץ עליהם כדי לראות את המקור, את המיקום בו ואת הקישור.</p>
+      <p class="hint-tap">המספרים הקטנים הם הפניות למקורות. אפשר ללחוץ עליהם כדי לראות את המקור, את המיקום בו ואת הקישור. <button class="btn ghost small" id="togglecites">${document.body.classList.contains('nocites') ? 'להציג הפניות' : 'להסתיר הפניות לקריאה רציפה'}</button></p>
       ${u.blocks.map(b => block(b, L)).join('')}
       <h2>תרגול קצר</h2>
       <div id="uq">${u.quiz.map((q, k) => questionHTML(q, L, k, true)).join('')}</div>
@@ -189,6 +189,11 @@
         ${prev ? `<a class="btn ghost small" href="#/l/${L.id}/u/${prev.id}">→ ${esc(prev.title)}</a>` : '<span></span>'}
         ${next ? `<a class="btn small" href="#/l/${L.id}/u/${next.id}">${esc(next.title)} ←</a>` : `<a class="btn small" href="#/l/${L.id}/quiz">למבחן המסכם ←</a>`}
       </div>`;
+    app.querySelector('#togglecites').addEventListener('click', e => {
+      const on = document.body.classList.toggle('nocites');
+      try { localStorage.setItem('agan-nocites', on ? '1' : ''); } catch (err) {}
+      e.target.textContent = on ? 'להציג הפניות' : 'להסתיר הפניות לקריאה רציפה';
+    });
     app.querySelector('#uq').addEventListener('click', e => {
       const b = e.target.closest('.opt'); if (!b) return; answer(b.closest('.q'), b);
     });
@@ -288,7 +293,7 @@
       <p class="sub">${rich(L.sourcesIntro, L)}</p>
       <div class="card">${Object.keys(L.sources).map(id => { const s = L.sources[id]; return `
         <div class="src-item"><div class="src-type">[${idx[id]}] ${esc(s.type)}</div>
-        <b>${s.title}</b><div class="muted" style="font-size:15px">${s.cite}</div>
+        <b dir="auto" style="display:block">${s.title}</b><div class="muted" dir="auto" style="font-size:15px">${s.cite}</div>
         ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">פתיחת המקור ↗</a>` : ''}
         ${s.note ? `<div class="note" style="margin-top:6px">${s.note}</div>` : ''}</div>`; }).join('')}</div>`;
   }
@@ -307,6 +312,7 @@
     } else home();
     if (p[2] !== 'u') window.scrollTo(0, 0);
   }
+  try { if (localStorage.getItem('agan-nocites')) document.body.classList.add('nocites'); } catch (err) {}
   window.addEventListener('hashchange', route);
   route();
 })();

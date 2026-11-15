@@ -104,3 +104,15 @@ svg text{font-family:Heebo,Arial,sans-serif}
 figure.schema{border:2px dashed var(--accent)}
 figure.real img{width:100%;height:auto;display:block;background:#fff;border-radius:8px}
 .cite-missing{color:var(--bad);font-weight:800;font-size:13px}
+
+body.nocites .cite{display:none}
+@media (max-width:600px){
+  table.stack, table.stack tbody, table.stack tr, table.stack td{display:block;width:100%}
+  table.stack thead{display:none}
+  table.stack tr{border:1px solid var(--line);border-radius:12px;margin:0 0 10px;padding:6px 10px;background:var(--card)}
+  table.stack td{border:0;border-bottom:1px dashed var(--line);padding:6px 0}
+  table.stack td:last-child{border-bottom:0}
+  table.stack td::before{content:attr(data-label);display:block;font-size:12px;font-weight:700;color:var(--brand)}
+  table.stack td:first-child{font-weight:800;font-size:17px}
+  table.stack td:first-child::before{display:none}
+}
