@@ -24,16 +24,28 @@
     Object.keys(lesson.sources).forEach(k => { idx[k] = n++; });
     lesson._idx = idx; return idx;
   }
+  // מוסיף RLM לפני סימן פיסוק שסוגר משפט אחרי מונח לועזי, כדי שהפיסוק יישאר בצד הנכון.
+  // לא נוגע בתוך {{...}} או בתוך תגיות HTML, ולא מוסיף RLM כשהמילה הבאה לועזית.
+  function addRLM(str) {
+    const keep = [];
+    const hold = m => { keep.push(m); return '' + (keep.length - 1) + ''; };
+    let t = String(str).replace(/\{\{[^}]+\}\}/g, hold).replace(/<[^>]*>/g, hold);
+    t = t.replace(/([A-Za-z0-9)\]’"])((?:\d+)*)([.:,;?!])(?=(\s*)(.?))/g, (m, a, ph, punct, sp, next, off, all) => {
+      if (!sp && next && next !== '') return m;          // אין רווח אחרי: לא סוף משפט
+      if (/[A-Za-z0-9]/.test(next)) return m;                  // המילה הבאה לועזית או מספר
+      return a + ph + '‏' + punct;
+    });
+    return t.replace(/(\d+)/g, (m, n) => keep[+n]);
+  }
   // {{ID|מיקום}} -> כפתור הפניה
   function rich(html, lesson) {
     const idx = srcIndex(lesson);
-    // סימן RLM בין מונח אנגלי (או הפניה) לבין סימן פיסוק בסוף משפט, כדי שהפיסוק יישאר בצד הנכון
-    html = String(html).replace(/([A-Za-z0-9)\]’])((?:\{\{[^}]+\}\})*)([.:,;?!])(?=\s|$|<)/g, '$1$2‏$3');
-    return html.replace(/\{\{(\w+)\|([^}]+)\}\}/g, (m, id, loc) => {
-      if (!lesson.sources[id]) { console.warn('מקור חסר', id); return ''; }
+    return addRLM(html).replace(/\{\{(\w+)\|([^}]+)\}\}/g, (m, id, loc) => {
+      if (!lesson.sources[id]) { console.error('מקור חסר', id); return '<span class="cite-missing" title="מקור חסר">[מקור חסר]</span>'; }
       return `<button class="cite" data-src="${id}" data-loc="${esc(loc)}" aria-label="מקור ${idx[id]}: ${esc(loc)}">${idx[id]}</button>`;
     });
   }
+  window.__addRLM = addRLM;
   function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
   function setCrumbs(parts) {
     crumbs.innerHTML = parts.map(p => p.href ? `<a href="${p.href}">${esc(p.t)}</a>` : `<span>${esc(p.t)}</span>`).join(' › ');

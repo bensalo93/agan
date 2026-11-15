@@ -101,3 +101,4 @@ svg text{font-family:Heebo,Arial,sans-serif}
 .real-b{background:var(--soft);color:var(--brand)}
 figure.schema{border:2px dashed var(--accent)}
 figure.real img{width:100%;height:auto;display:block;background:#fff;border-radius:8px}
+.cite-missing{color:var(--bad);font-weight:800;font-size:13px}
