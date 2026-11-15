@@ -15,6 +15,16 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%232f5d62'/%3E%3Cpath d='M22 40 Q50 85 78 40' stroke='white' stroke-width='9' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 </head>
 <body>
+<div id="gate" class="gate" hidden>
+  <form id="gate-form" class="card gate-card" autocomplete="off">
+    <h1>לומדות רצפת אגן</h1>
+    <p class="muted">האתר מיועד ללימוד אישי. כדי להיכנס צריך סיסמה.</p>
+    <label for="gate-pw">סיסמה</label>
+    <input id="gate-pw" type="password" dir="ltr" autocomplete="current-password" required>
+    <p id="gate-err" class="gate-err" hidden>הסיסמה לא נכונה. אפשר לנסות שוב.</p>
+    <button class="btn" type="submit">כניסה</button>
+  </form>
+</div>
 <header class="topbar">
   <a href="#/" class="brand">לומדות רצפת אגן</a>
   <nav id="crumbs" class="crumbs"></nav>
@@ -30,6 +40,7 @@
 <script src="content/course.js"></script>
 <script src="content/lesson-01.js"></script>
 <script src="assets/diagrams.js"></script>
+<script>window.GATE_HASH = "e983ee8eeaee88a7adf2009844f2ae8b9a4368d71a2f1caf0cef424c479722cc";</script>
 <script src="assets/app.js"></script>
 </body>
 </html>

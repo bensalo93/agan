@@ -313,6 +313,35 @@
     if (p[2] !== 'u') window.scrollTo(0, 0);
   }
   try { if (localStorage.getItem('agan-nocites')) document.body.classList.add('nocites'); } catch (err) {}
-  window.addEventListener('hashchange', route);
-  route();
+
+  /* ---------- סיסמת כניסה ----------
+     נשמר רק גיבוב SHA-256 של הסיסמה. זו חסימה מפני כניסה מקרית, לא הצפנה של התוכן. */
+  const GATE_KEY = 'agan-unlocked';
+  async function sha256(t) {
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t));
+    return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, '0')).join('');
+  }
+  function start() {
+    document.getElementById('gate').hidden = true;
+    document.body.classList.remove('locked');
+    window.addEventListener('hashchange', route);
+    route();
+  }
+  let unlocked = false;
+  try { unlocked = localStorage.getItem(GATE_KEY) === window.GATE_HASH; } catch (err) {}
+  if (!window.GATE_HASH || unlocked) start();
+  else {
+    document.body.classList.add('locked');
+    const gate = document.getElementById('gate'); gate.hidden = false;
+    const pw = document.getElementById('gate-pw'); pw.focus();
+    document.getElementById('gate-form').addEventListener('submit', async e => {
+      e.preventDefault();
+      if (await sha256(pw.value.trim()) === window.GATE_HASH) {
+        try { localStorage.setItem(GATE_KEY, window.GATE_HASH); } catch (err) {}
+        start();
+      } else {
+        document.getElementById('gate-err').hidden = false; pw.select();
+      }
+    });
+  }
 })();
