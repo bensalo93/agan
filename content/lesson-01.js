@@ -94,7 +94,7 @@ window.LESSONS['01'] = {
         { t: 'table', head: ['דופן', 'מה בונה אותה'], rows: [
           ['קדמית', 'ה-Symphysis pubis וה-Pubic rami, העליון והתחתון{{C2|שקף 9 – "הדופן הקדמית"}}'],
           ['אחורית', 'הסקרום ועצם הזנב. ה-Sacral promontory הוא האזור שבו מודדים את קוטר פנים האגן. הדופן משמשת אחז לרצועות, ל-Piriformis מבפנים ול-Gluteus מבחוץ{{C2|שקף 10 – "הדופן האחורית"}}'],
-          ['לטרלית', 'ה-Obturator internus, ה-Piriformis, ה-Sacrotuberous lig. וה-Sacrospinous lig.{{C2|שקף 11 – "הדופן הלטרלית"}}'],
+          ['לטרלית', 'ה-Obturator internus, ה-Piriformis, ה-Sacrotuberous ligament וה-Sacrospinous ligament{{C2|שקף 11 – "הדופן הלטרלית"}}'],
           ['תחתונה', 'שרירי רצפת האגן ורקמות החיבור, ועליהם ביחידה 7{{C2|שקף 14 – "הדופן התחתונה"}}']
         ] },
         { t: 'video', yt: 'q8B71Dnptxc', title: 'Piriformis ו-Obturator internus', cap: 'סרטון שהמצגת ממליצה עליו, על ה-Piriformis וה-Obturator internus. הסרטון בערבית, ולפי השקף היא מובנת{{C2|שקף 13}}. אם הסרטון לא נטען: <a href="https://www.youtube.com/watch?v=q8B71Dnptxc" target="_blank" rel="noopener">צפייה ביוטיוב</a>.' }
@@ -102,7 +102,7 @@ window.LESSONS['01'] = {
       quiz: [
         { q: 'מהי זווית הקשת הפובית באישה לפי הטבלה בשקף 5?', o: ['80°–90°', '50°–60°', 'פחות מ-70°', '100°–110°'], a: 0, ex: 'לפי הטבלה: 80°–90° באישה ו-50°–60° בגבר. שימי לב שבתמונה בשקף 4 מופיעים ערכים אחרים{{C2|שקפים 4–5}}.' },
         { q: 'איזה מפרק באגן הוא מפרק סינוביאלי?', o: ['ה-Sacro-iliac joint', 'ה-Symphysis pubis', 'ה-Sacro-coccygeal joint', 'אף אחד מהם'], a: 0, ex: 'שני מפרקי ה-Sacro-iliac סינוביאליים. ה-Symphysis pubis וה-Sacro-coccygeal הם מפרקים סחוסיים{{C2|שקף 7}}.' },
-        { q: 'מה בונה את הדופן הלטרלית של האגן?', o: ['ה-Obturator internus, ה-Piriformis, ה-Sacrotuberous lig. וה-Sacrospinous lig.', 'ה-Symphysis pubis וה-Pubic rami', 'הסקרום ועצם הזנב', 'שרירי ה-Levator ani'], a: 0, ex: 'הדופן הלטרלית בנויה מה-Obturator internus, ה-Piriformis ושתי הרצועות{{C2|שקף 11}}.' },
+        { q: 'מה בונה את הדופן הלטרלית של האגן?', o: ['ה-Obturator internus, ה-Piriformis, ה-Sacrotuberous ligament וה-Sacrospinous ligament', 'ה-Symphysis pubis וה-Pubic rami', 'הסקרום ועצם הזנב', 'שרירי ה-Levator ani'], a: 0, ex: 'הדופן הלטרלית בנויה מה-Obturator internus, ה-Piriformis ושתי הרצועות{{C2|שקף 11}}.' },
         { q: 'באיזה אזור מודדים את קוטר פנים האגן?', o: ['ב-Sacral promontory', 'ב-Ischial spine', 'ב-Symphysis pubis', 'בקצה ה-Coccyx'], a: 0, ex: 'ה-Sacral promontory הוא אזור מדידת קוטר פנים האגן{{C2|שקף 10}}.' }
       ]
     },
@@ -145,24 +145,24 @@ window.LESSONS['01'] = {
           'לפי השקף, לבלוטות הלימפה של השפתיים יש קשר ל"שפה הנגדית"{{C1|שקף "שפתיים גדולות"}}.'
         ] },
         { t: 'table', head: ['עצב', 'שורשים', 'מה הוא מעצבב'], rows: [
-          ['ה-Iliohypogastric n. (ענף Ant. hypogastric)', 'T12–L1', 'החלק העליון של השפה'],
-          ['ה-Ilioinguinal n.', 'L1', 'חלק מדיאלי של השפה'],
-          ['ה-Genitofemoral n.', 'L1–2', 'חלקים עמוקים, כולל שריר ה-Dartos'],
-          ['ה-Posterior femoral cutaneous n. (מה-Sacral plexus)', 'S1–2', 'גם את הירך המדיאלית'],
-          ['ה-Pudendal n.', 'S2–4', 'ללא פירוט בשקף']
+          ['ה-Iliohypogastric nerve (ענף Anterior hypogastric)', 'T12–L1', 'החלק העליון של השפה'],
+          ['ה-Ilioinguinal nerve', 'L1', 'חלק מדיאלי של השפה'],
+          ['ה-Genitofemoral nerve', 'L1–2', 'חלקים עמוקים, כולל שריר ה-Dartos'],
+          ['ה-Posterior femoral cutaneous nerve (מה-Sacral plexus)', 'S1–2', 'גם את הירך המדיאלית'],
+          ['ה-Pudendal nerve', 'S2–4', 'ללא פירוט בשקף']
         ], cap: 'עצבוב השפתיים הגדולות{{C1|שקף "עצבוב שפתיים גדולות"}}.' },
         { t: 'h', h: 'השפתיים הקטנות (Labia minora)' },
         { t: 'ul', items: [
           'אורכן הממוצע 5 ס"מ, ועוביין לפי השקף 0.5–1 מ"מ{{C1|שקף "שפתיים פנימיות"}}.',
           'הן משתרעות מבסיס הדגדגן עד ה-Hymen ring{{C1|שקף "שפתיים פנימיות"}}.',
           'מבחינה עוברית, השפתיים הקטנות והוסטיבול מקבילים לעור ה-Urethra והפין בגבר{{C1|שקף "שפתיים פנימיות"}}{{R5|Structure and Function}}.',
-          'העצבוב מגיע מסיבים של השפתיים הגדולות ומה-Pudendal n. ביציאתו מה-Alcock’s canal{{C1|שקף "שפתיים פנימיות"}}.'
+          'העצבוב מגיע מסיבים של השפתיים הגדולות ומה-Pudendal nerve ביציאתו מה-Alcock’s canal{{C1|שקף "שפתיים פנימיות"}}.'
         ] },
         { t: 'h', h: 'הוסטיבול (Vestibule) והבלוטות' },
         { t: 'ul', items: [
           'גבולות הוסטיבול: השפתיים הפנימיות, האורטרה, הדגדגן וה-Hymen ring{{C1|שקף "וסטיבול"}}.',
           'בלוטות ברתולין נמצאות "בשעה 5 ו-7", ובלוטות Skene "בשעה 1 ו-3"{{C1|שקף "וסטיבול"}}.',
-          'העור בו מחוספס, ויש בו אספקת דם עשירה. העצבוב: ה-Perineal n. ו-Free nerve endings{{C1|שקף "וסטיבול"}}.',
+          'העור בו מחוספס, ויש בו אספקת דם עשירה. העצבוב: ה-Perineal nerve ו-Free nerve endings{{C1|שקף "וסטיבול"}}.',
           'בלוטות Skene נקראות גם Para-urethral glands, וההפרשה שלהן מקבילה להפרשה מהפרוסטטה{{C1|שקף "Vestibular glands"}}{{R5|Structure and Function}}.',
           'בלוטות ברתולין נמצאות לטרלית ומעט אחורית לפתח הנרתיק{{R5|Structure and Function}}. בשקף הן מתוארות כאינפריוריות ולטרליות ל-Bulbocavernosus{{C1|שקף "Vestibular glands"}}.'
         ] },
@@ -171,13 +171,13 @@ window.LESSONS['01'] = {
           'אורכו הממוצע 2 ס"מ{{C1|שקף "דגדגן"}}.',
           'יש לו שתי "רגליים" (Crura), שהן גופים זיקפתיים (Erectile cavernous), ובליטה שהיא הראש{{C1|שקף "דגדגן"}}.',
           'ה-Crura נמצאות אינפריורית ל-Ischiocavernosus{{C1|שקף "דגדגן"}}.',
-          'העצבוב מגיע מה-Sacral plexus דרך ה-Pudendal n. לפי השקף, לעיתים אין סיומת עצב על הדגדגן{{C1|שקף "דגדגן"}}.'
+          'העצבוב מגיע מה-Sacral plexus דרך ה-Pudendal nerve לפי השקף, לעיתים אין סיומת עצב על הדגדגן{{C1|שקף "דגדגן"}}.'
         ] },
         { t: 'note', h: 'בשקפים "קרום הבתולין – Hymen" ו"דרמטומים" היו רק תמונות, והן לא שרדו בהמרה. כדאי לעבור עליהם במצגת המקורית{{C1|שקפים "קרום הבתולין" ו"דרמטומים"}}.' }
       ],
       quiz: [
         { q: 'מה מהווה את הגבול הלטרלי של הוולווה?', o: ['השפתיים הגדולות', 'השפתיים הקטנות', 'ה-Hymen ring', 'הוסטיבול'], a: 0, ex: 'השפתיים הגדולות הן הגבולות הלטרליים של הוולווה{{C1|שקף "שפתיים גדולות"}}.' },
-        { q: 'איזה עצב מעצבב את החלקים העמוקים של השפתיים הגדולות, כולל שריר ה-Dartos?', o: ['ה-Genitofemoral n.', 'ה-Ilioinguinal n.', 'ה-Iliohypogastric n.', 'ה-Posterior femoral cutaneous n.'], a: 0, ex: 'ה-Genitofemoral n. ‏(L1–2) מעצבב את החלקים העמוקים, כולל ה-Dartos{{C1|שקף "עצבוב שפתיים גדולות"}}.' },
+        { q: 'איזה עצב מעצבב את החלקים העמוקים של השפתיים הגדולות, כולל שריר ה-Dartos?', o: ['ה-Genitofemoral nerve', 'ה-Ilioinguinal nerve', 'ה-Iliohypogastric nerve', 'ה-Posterior femoral cutaneous nerve'], a: 0, ex: 'ה-Genitofemoral nerve ‏(L1–2) מעצבב את החלקים העמוקים, כולל ה-Dartos{{C1|שקף "עצבוב שפתיים גדולות"}}.' },
         { q: 'היכן נמצאות בלוטות ברתולין לפי "שעון" השקף?', o: ['בשעה 5 ו-7', 'בשעה 1 ו-3', 'בשעה 12', 'בשעה 9 ו-3'], a: 0, ex: 'ברתולין בשעה 5 ו-7, ו-Skene בשעה 1 ו-3{{C1|שקף "וסטיבול"}}.' },
         { q: 'להפרשה של איזו בלוטה בגבר מקבילות בלוטות Skene?', o: ['הפרוסטטה', 'הבלוטה הבולבואורתרלית', 'האשך', 'שלפוחית הזרע'], a: 0, ex: 'בלוטות Skene מקבילות לפרוסטטה{{C1|שקף "Vestibular glands"}}{{R5|Structure and Function}}.' },
         { q: 'למה מקבילות השפתיים הגדולות מבחינה עוברית, לפי StatPearls?', o: ['לשק האשכים (Scrotum)', 'לגוף הפין', 'לפרוסטטה', 'לראש הפין'], a: 0, ex: 'השפתיים הגדולות ושק האשכים מתפתחים שניהם מה-Labioscrotal folds{{R5|Structure and Function}}. בשקף נכתב "מקבילות לאשכים"{{C1|שקף "שפתיים גדולות"}}.' }
@@ -196,7 +196,7 @@ window.LESSONS['01'] = {
           'אספקת הדם מגיעה מה-Uterine artery{{C1|שקף "נרתיק"}}.',
           'מקדימה הנרתיק גובל בשלפוחית, ומאחור ב-Douglas pouch (בשקף: Duglas){{C1|שקף "נרתיק" (השני)}}.',
           'ה-pH בנרתיק הוא 3.5–4.5, בזכות הלקטובצילים{{C1|שקף "נרתיק" (השני)}}.',
-          'העצבוב: סימפטטי מה-Hypogastric n., פאראסימפטטי מה-Sacral n. וסומטי מה-Pudendal n.{{C1|שקף "נרתיק" (השני)}}.'
+          'העצבוב: סימפטטי מה-Hypogastric nerve, פאראסימפטטי מה-Sacral nerve וסומטי מה-Pudendal nerve{{C1|שקף "נרתיק" (השני)}}.'
         ] },
         { t: 'h', h: 'הרחם (Uterus)' },
         { t: 'ul', items: [
@@ -214,10 +214,10 @@ window.LESSONS['01'] = {
         ] },
         { t: 'h', h: 'תמיכת הרחם' },
         { t: 'table', head: ['רצועה', 'לפי המצגות', 'הרחבה ממקור אקדמי'], rows: [
-          ['ה-Broad lig.', 'עליונה. קפל (Reflexion) של הפריטונאום{{C1|שקף "תמיכת הרחם"}}', 'שכבה כפולה של פריטונאום. תמיכה משנית בלבד{{R7|Introduction}}'],
-          ['ה-Round lig.', 'עליונה{{C1|שקף "תמיכת הרחם"}}', 'תמיכה משנית{{R7|Introduction}}. בהריון עוזרת לשמור על הרחם במנח Anteversion{{R9|Structure and Function}}'],
-          ['ה-Cardinal lig.', 'תחתונה. תומכת גם בשליש העליון של הנרתיק{{C2|שקף 82}}', 'יחד עם ה-Uterosacral: תמיכה אפיקלית לרחם ולנרתיק העליון{{R8|Introduction}}'],
-          ['ה-Sacro-uterine lig.', 'תחתונה. תומכת גם בשליש העליון של הנרתיק{{C2|שקף 82}}', 'כמו ה-Cardinal{{R8|Introduction}}']
+          ['ה-Broad ligament', 'עליונה. קפל (Reflexion) של הפריטונאום{{C1|שקף "תמיכת הרחם"}}', 'שכבה כפולה של פריטונאום. תמיכה משנית בלבד{{R7|Introduction}}'],
+          ['ה-Round ligament', 'עליונה{{C1|שקף "תמיכת הרחם"}}', 'תמיכה משנית{{R7|Introduction}}. בהריון עוזרת לשמור על הרחם במנח Anteversion{{R9|Structure and Function}}'],
+          ['ה-Cardinal ligament', 'תחתונה. תומכת גם בשליש העליון של הנרתיק{{C2|שקף 82}}', 'יחד עם ה-Uterosacral: תמיכה אפיקלית לרחם ולנרתיק העליון{{R8|Introduction}}'],
+          ['ה-Sacro-uterine ligament', 'תחתונה. תומכת גם בשליש העליון של הנרתיק{{C2|שקף 82}}', 'כמו ה-Cardinal{{R8|Introduction}}']
         ] },
         { t: 'h', h: 'צוואר הרחם (Cervix)' },
         { t: 'ul', items: [
@@ -238,7 +238,7 @@ window.LESSONS['01'] = {
         { t: 'h', h: 'אספקת דם ועצבוב' },
         { t: 'ul', items: [
           'לאספקת הדם לאגן יש וריאנטים רבים. היא מגיעה בכמות רבה ובזרימה מהירה, ובהריון מגיעה עד 500 מ"ל דם לדקה{{C1|שקף "אספקת דם ועצבוב"}}.',
-          'העצבוב: סימפטטי מה-Hypogastric n., ופאראסימפטטי מה-Sacral n.{{C1|שקף "אספקת דם ועצבוב"}}.'
+          'העצבוב: סימפטטי מה-Hypogastric nerve, ופאראסימפטטי מה-Sacral nerve{{C1|שקף "אספקת דם ועצבוב"}}.'
         ] },
         { t: 'h', h: 'הרחם בהריון' },
         { t: 'ul', items: [
@@ -274,15 +274,15 @@ window.LESSONS['01'] = {
         { t: 'key', h: '<b>הטריגון:</b> אזור שרירי בבסיס השלפוחית. הוא סוגר את פתחי השופכנים בזמן ההתכווצות וההתרוקנות של השלפוחית, וכך מונע ריפלוקס לכליות{{C1|שקף "טריגון"}}.' },
         { t: 'table', head: ['סוג עצבוב', 'מקור'], rows: [
           ['סימפטטי', 'ה-Hypogastric sympathetic plexus'],
-          ['פאראסימפטטי', 'ה-Sacral n.'],
-          ['סומטי', 'ה-Pudendal n.']
+          ['פאראסימפטטי', 'ה-Sacral nerve'],
+          ['סומטי', 'ה-Pudendal nerve']
         ], cap: 'עצבוב השלפוחית{{C1|שקף "עצבוב שלפוחית"}}.' },
         { t: 'note', h: 'לעצב ה-Pudendal מוקדש שקף נפרד, שהיה תמונה בלבד{{C1|שקף "Pudendal nerve"}}. על הרקטום תהיה הרצאה אחרת{{C1|שקף "רקטום"}}.' }
       ],
       quiz: [
         { q: 'מה סדר השכבות בשריר ה-Detrusor, מבפנים החוצה?', o: ['אורכית, מעגלית, אורכית', 'מעגלית, אורכית, מעגלית', 'אורכית, אורכית, מעגלית', 'מעגלית, מעגלית, אורכית'], a: 0, ex: 'פנימית אורכית, אמצעית מעגלית וחיצונית אורכית{{C1|שקף "שלפוחית השתן"}}{{R12|Muscles}}.' },
         { q: 'מה תפקיד הטריגון?', o: ['לסגור את פתחי השופכנים ולמנוע ריפלוקס לכליות', 'לאגור שתן', 'לסגור את השופכה במאמץ', 'לעצבב את השלפוחית'], a: 0, ex: 'הטריגון סוגר את פתחי השופכנים בזמן התכווצות השלפוחית כדי למנוע ריפלוקס לכליות{{C1|שקף "טריגון"}}.' },
-        { q: 'איזה עצב אחראי לעצבוב הסומטי של השלפוחית?', o: ['ה-Pudendal n.', 'ה-Hypogastric plexus', 'ה-Sacral n.', 'ה-Genitofemoral n.'], a: 0, ex: 'העצבוב הסומטי מגיע מה-Pudendal n.{{C1|שקף "עצבוב שלפוחית"}}.' }
+        { q: 'איזה עצב אחראי לעצבוב הסומטי של השלפוחית?', o: ['ה-Pudendal nerve', 'ה-Hypogastric plexus', 'ה-Sacral nerve', 'ה-Genitofemoral nerve'], a: 0, ex: 'העצבוב הסומטי מגיע מה-Pudendal nerve{{C1|שקף "עצבוב שלפוחית"}}.' }
       ]
     },
 
@@ -304,12 +304,12 @@ window.LESSONS['01'] = {
         { t: 'p', h: 'ה-Levator ani בנוי משלושה חלקים: Puborectalis, ‏Pubococcygeus ו-Iliococcygeus. יחד עם ה-Coccygeus הוא חלק מרצפת האגן{{R2|Introduction}}. בספרות האנטומית אין הסכמה מלאה על אופן החלוקה של ה-LA{{R2|Structure and Function}}. גם המצגת מציינת שה-Coccygeus "לא תמיד נחשב כחלק מה-LA"{{C2|שקף 26}}.' },
         { t: 'p', h: 'בשכבה הזאת יש שני פתחים: ה-Urogenital hiatus, שנקרא גם Levator ani hiatus, וה-Rectal hiatus ‏(Ano-rectal){{C2|שקף 22}}.' },
         { t: 'img', src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gray404.png', page: 'https://commons.wikimedia.org/wiki/File:Gray404.png', alt: 'ה-Levator ani השמאלי במבט מבפנים', cap: 'ה-Levator ani השמאלי, במבט מתוך האגן{{G404|איור 404}}. מסומנים באיור: ה-Levator ani, ה-Coccygeus, ה-Piriformis (בכתיב הישן Pyriformis), ה-Obturator fascia, ה-Pubis וה-Anococcygeal raphe. <b>שתי הסתייגויות:</b> האגן באיור הוא של גבר, ומסומנת בו הפרוסטטה. בנוסף, ה-LA מצויר כשריר אחד, בלי החלוקה ל-Puborectalis, ‏Pubococcygeus ו-Iliococcygeus. את החלוקה הזאת מפרטת הטבלה שלמטה.' },
-        { t: 'note', h: 'בקובץ שהומר נעלמו שמות השרירים בשקפים 23–26. השיוך בטבלה נעשה לפי התוכן: שקף 23 זהה בתוכנו לשקף 31, שכותרתו Puborectalis. שקף 25 זהה לשקף 32, שכותרתו Iliococcygeus. שקף 26 הוא ה-Coccygeus, כי כתוב בו שאינו תמיד חלק מה-LA ושהוא חופף ל-Sacrospinous lig. שקף 24 הוא לכן ה-Pubococcygeus. כדאי לוודא את השיוך מול המצגת המקורית{{C2|שקפים 23–26, 31–32}}.' },
+        { t: 'note', h: 'בקובץ שהומר נעלמו שמות השרירים בשקפים 23–26. השיוך בטבלה נעשה לפי התוכן: שקף 23 זהה בתוכנו לשקף 31, שכותרתו Puborectalis. שקף 25 זהה לשקף 32, שכותרתו Iliococcygeus. שקף 26 הוא ה-Coccygeus, כי כתוב בו שאינו תמיד חלק מה-LA ושהוא חופף ל-Sacrospinous ligament שקף 24 הוא לכן ה-Pubococcygeus. כדאי לוודא את השיוך מול המצגת המקורית{{C2|שקפים 23–26, 31–32}}.' },
         { t: 'table', head: ['שריר', 'תחל', 'אחז', 'תפקיד', 'עצבוב'], rows: [
-          ['ה-Puborectalis{{C2|שקפים 23, 31}}', 'החלק האחורי של ה-Pubis', 'מאחורי הרקטום. מתחבר גם לסוגר החיצוני של השופכה (EUS) ולסוגר החיצוני של האנוס (EAS)', 'שליטה על הזווית האנורקטלית. מהווה חלק מה-External anal sphincter', 'סומטי (LA n. ו-Pudendal), וגם רפלקסיבי-אוטונומי בעלייה פתאומית של הלחץ התוך-בטני'],
+          ['ה-Puborectalis{{C2|שקפים 23, 31}}', 'החלק האחורי של ה-Pubis', 'מאחורי הרקטום. מתחבר גם לסוגר החיצוני של השופכה (EUS) ולסוגר החיצוני של האנוס (EAS)', 'שליטה על הזווית האנורקטלית. מהווה חלק מה-External anal sphincter', 'סומטי (LA nerve ו-Pudendal), וגם רפלקסיבי-אוטונומי בעלייה פתאומית של הלחץ התוך-בטני'],
           ['ה-Pubococcygeus{{C2|שקף 24}}', 'החלק האחורי של ה-Pubis והחלק הקדמי של ה-Obturator fascia. עובר אופקית משני צדי האנוס', 'חלק מהסיבים ל-Anococcygeal raphe, ומשם בגיד שטוח מאחורי הרקטום לחלק הקדמי של ה-Coccyx', 'יחד עם ה-PR מרים ולוחץ את ה-Urogenital hiatus, כלומר סוגר את האורטרה', 'ענפים פרינאליים של ה-Anterior primary rami, ‏S3–4'],
-          ['ה-Iliococcygeus{{C2|שקפים 25, 32}}', 'החלק האמצעי של ה-Obturator internus וה-Ischial spine, וחלק אחורי מה-Sacrospinous lig.', 'ה-Anococcygeal raphe וה-Coccyx', 'יוצר "מדף" אופקי לאיברי האגן. מרים את פי הטבעת ואת צוואר השלפוחית ותומך באיברי האגן', 'ה-Nerve to levator ani, ‏S3–4'],
-          ['ה-Coccygeus{{C2|שקף 26}}', 'קצה ה-Ischial spine והצד הפנימי של ה-Sacrospinous lig.', 'משני צדי ה-Coccyx וקצה הסקרום', 'עוזר ל-LA ול-Piriformis לסגור את החלק האחורי של מוצא האגן, וכך מסייע בסגירת הרקטום', 'ענפים פרינאליים של ה-Anterior primary rami, ‏S3–4']
+          ['ה-Iliococcygeus{{C2|שקפים 25, 32}}', 'החלק האמצעי של ה-Obturator internus וה-Ischial spine, וחלק אחורי מה-Sacrospinous ligament', 'ה-Anococcygeal raphe וה-Coccyx', 'יוצר "מדף" אופקי לאיברי האגן. מרים את פי הטבעת ואת צוואר השלפוחית ותומך באיברי האגן', 'ה-Nerve to levator ani, ‏S3–4'],
+          ['ה-Coccygeus{{C2|שקף 26}}', 'קצה ה-Ischial spine והצד הפנימי של ה-Sacrospinous ligament', 'משני צדי ה-Coccyx וקצה הסקרום', 'עוזר ל-LA ול-Piriformis לסגור את החלק האחורי של מוצא האגן, וכך מסייע בסגירת הרקטום', 'ענפים פרינאליים של ה-Anterior primary rami, ‏S3–4']
         ] },
         { t: 'p', h: 'ה-Iliococcygeus יוצא מה-ATLA ‏(Tendinous arc of levator ani), שנמצא על ה-Obturator fascia{{C2|שקף 28}}. לפי StatPearls, החלק האחורי של ה-ATFP, שמכסה את הצד המדיאלי של ה-Obturator internus, יוצר את ה-ATLA, וממנו יוצא ה-Iliococcygeus{{R2|Origin, Course, and Insertion}}.' },
         { t: 'key', h: '<b>שימי לב לכיוון:</b> בזמן התרוקנות, כיווץ של ה-Iliococcygeus (ה-LA) גורם לפתיחה של צוואר השלפוחית ושל פי הטבעת. המצגת מייחסת את הממצא ל-DeLancey, 2003{{C2|שקף 33}}.' },
@@ -331,24 +331,24 @@ window.LESSONS['01'] = {
           '<b>ה-Perineal body</b> הוא מסה של רקמת חיבור בין האנוס לנרתיק. הוא מקבל סיבים מה-External anal sphincter, מה-Bulbocavernosus, מה-Superficial transverse perineal ומהממברנה הפרינאלית, ותומך בקיר האחורי של הנרתיק{{C2|שקף 42}}. ה-Perineal body חיוני לשלמות רצפת האגן, במיוחד אצל נשים{{R14|Introduction}}.'
         ] },
         { t: 'table', head: ['שריר', 'תחל', 'אחז', 'תפקיד', 'עצבוב'], rows: [
-          ['ה-Transverse perineal{{C2|שקף 43}}', 'ה-Ischial tub. וה-Ramus', 'ה-Perineal body וה-External anal sphincter', 'ייצוב ה-Perineal body', 'ה-Pudendal n. ‏(S2–4)'],
-          ['ה-Ischiocavernosus{{C2|שקף 44}}', 'ה-Ischial tub. וה-Ramus', 'ה-Crus של הדגדגן (בגבר: של הפין)', 'מעביר דם מה-Crus לגוף הדגדגן או הפין, ועוזר בזקפה', 'ה-Pudendal n. ‏(S2–4)'],
-          ['ה-Bulbospongiosus ‏(Bulbocavernosus){{C2|שקף 45}}', 'ה-Perineal body', 'ה-Crus וה-Bulb of vestibule, הממברנה הפרינאלית, ה-Corpus cavernosum וגוף הדגדגן. לעיתים חלק מהסיבים ל-Pubis', 'מצר את פתח הנרתיק (יחד עם ה-Puborectalis) ועוזר בזקפת הדגדגן', 'ה-Pudendal n. ‏(S2–4)']
+          ['ה-Transverse perineal{{C2|שקף 43}}', 'ה-Ischial tuberosity וה-Ramus', 'ה-Perineal body וה-External anal sphincter', 'ייצוב ה-Perineal body', 'ה-Pudendal nerve ‏(S2–4)'],
+          ['ה-Ischiocavernosus{{C2|שקף 44}}', 'ה-Ischial tuberosity וה-Ramus', 'ה-Crus של הדגדגן (בגבר: של הפין)', 'מעביר דם מה-Crus לגוף הדגדגן או הפין, ועוזר בזקפה', 'ה-Pudendal nerve ‏(S2–4)'],
+          ['ה-Bulbospongiosus ‏(Bulbocavernosus){{C2|שקף 45}}', 'ה-Perineal body', 'ה-Crus וה-Bulb of vestibule, הממברנה הפרינאלית, ה-Corpus cavernosum וגוף הדגדגן. לעיתים חלק מהסיבים ל-Pubis', 'מצר את פתח הנרתיק (יחד עם ה-Puborectalis) ועוזר בזקפת הדגדגן', 'ה-Pudendal nerve ‏(S2–4)']
         ] },
         { t: 'deep', title: 'להרחבה: ה-Bulbospongiosus בגבר (שקף 46)', items: [
           'תחל: ה-Perineal body וה-Midline raphe. אחז: סיבי השריר מהצד השני, ה-Perineal membrane וה-Corpus cavernosum{{C2|שקף 46}}.',
           'תפקידים: שמירה על הזקפה, שבה הסיבים הקדמיים לוחצים על ה-Deep dorsal vein ומעכבים את יציאת הדם הוורידי; ריקון שארית השתן בסוף ההתרוקנות; ושפיכה{{C2|שקף 46}}.'
         ] },
         { t: 'ul', items: [
-          '<b>ה-External anal sphincter</b> מקיף את ה-Anal canal ומחולק לחלק עמוק (Deep) ולחלק שטחי (Superficial). החלק השטחי מעוגן ל-Perineal body ול-Anococcygeal lig.{{C2|שקף 48}}.',
-          '<b>ה-Anococcygeal lig.</b> ‏(Body ו-Raphe) הוא רצועה עבה וחזקה שמחברת בין האנוס ל-Coccyx, עם סיבים מהשכבה השטחית ומה-LA. היא בולמת זעזועים, ומקבעת את הקיר האחורי של האנוס כששרירי רצפת האגן מתרפים, כדי לאפשר לפי הטבעת להיפתח{{C2|שקף 49}}.'
+          '<b>ה-External anal sphincter</b> מקיף את ה-Anal canal ומחולק לחלק עמוק (Deep) ולחלק שטחי (Superficial). החלק השטחי מעוגן ל-Perineal body ול-Anococcygeal ligament{{C2|שקף 48}}.',
+          '<b>ה-Anococcygeal ligament</b> ‏(Body ו-Raphe) הוא רצועה עבה וחזקה שמחברת בין האנוס ל-Coccyx, עם סיבים מהשכבה השטחית ומה-LA. היא בולמת זעזועים, ומקבעת את הקיר האחורי של האנוס כששרירי רצפת האגן מתרפים, כדי לאפשר לפי הטבעת להיפתח{{C2|שקף 49}}.'
         ] },
 
         { t: 'h', h: 'סיכום העצבוב' },
         { t: 'table', head: ['שכבה', 'עצבוב'], rows: [
-          ['שרירי ה-Levator ani', 'ה-LA nerve משורשי S(2)–3–4 של ה-Sacral plexus, ותרומה חלקית של ה-Pudendal n., בעיקר ל-Puborectalis{{C2|שקף 52}}'],
-          ['השכבה השטחית', 'ה-Pudendal n. ‏(S2–3–4){{C2|שקף 52}}']
-        ], cap: 'גם לפי StatPearls, העצבוב של מבני רצפת האגן מגיע בעיקר משורשי S3–S4 דרך ה-Pudendal n.{{R13|Anatomy and Function}}.' },
+          ['שרירי ה-Levator ani', 'ה-LA nerve משורשי S(2)–3–4 של ה-Sacral plexus, ותרומה חלקית של ה-Pudendal nerve, בעיקר ל-Puborectalis{{C2|שקף 52}}'],
+          ['השכבה השטחית', 'ה-Pudendal nerve ‏(S2–3–4){{C2|שקף 52}}']
+        ], cap: 'גם לפי StatPearls, העצבוב של מבני רצפת האגן מגיע בעיקר משורשי S3–S4 דרך ה-Pudendal nerve{{R13|Anatomy and Function}}.' },
         { t: 'h', h: 'סרטונים וקריאה מהמצגת' },
         { t: 'video', yt: 'P3BBAMWm2Eo', title: 'שרירי רצפת האגן', cap: 'סרטון מומלץ על שרירי ה-LA, כ-10.5 דקות{{C2|שקף 63}}. אם הסרטון לא נטען: <a href="https://www.youtube.com/watch?v=P3BBAMWm2Eo" target="_blank" rel="noopener">צפייה ביוטיוב</a>.' },
         { t: 'video', yt: 'atldBjFBKjI', title: 'רצפת האגן ואיברי האגן', cap: 'סרטון קצר על רצפת האגן ואיברי האגן, 2:45 דקות{{C2|שקף 63}}. אם הסרטון לא נטען: <a href="https://www.youtube.com/watch?v=atldBjFBKjI" target="_blank" rel="noopener">צפייה ביוטיוב</a>.' },
@@ -360,8 +360,8 @@ window.LESSONS['01'] = {
         { q: 'איזה שריר שולט על הזווית האנורקטלית?', o: ['ה-Puborectalis', 'ה-Iliococcygeus', 'ה-Coccygeus', 'ה-Ischiocavernosus'], a: 0, ex: 'ה-Puborectalis שולט על הזווית האנורקטלית ומהווה חלק מה-External anal sphincter{{C2|שקפים 23, 31}}.' },
         { q: 'מאיזה מבנה יוצא ה-Iliococcygeus?', o: ['מה-ATLA שעל ה-Obturator fascia ומה-Ischial spine', 'מהחלק האחורי של ה-Pubis', 'מה-Perineal body', 'מה-Ischial tuberosity'], a: 0, ex: 'ה-Iliococcygeus יוצא מה-ATLA ומה-Ischial spine{{C2|שקפים 25, 28}}{{R2|Origin, Course, and Insertion}}.' },
         { q: 'מאילו שרירים מקבל ה-Perineal body סיבים?', o: ['ה-External anal sphincter, ה-Bulbocavernosus וה-Superficial transverse perineal', 'ה-Iliococcygeus וה-Coccygeus', 'ה-Piriformis וה-Obturator internus', 'ה-Ischiocavernosus בלבד'], a: 0, ex: 'ה-Perineal body מקבל סיבים מה-EAS, ה-Bulbocavernosus, ה-Superficial transverse perineal ומהממברנה הפרינאלית{{C2|שקף 42}}.' },
-        { q: 'מהו העצבוב של שרירי השכבה השטחית?', o: ['ה-Pudendal n. ‏(S2–4)', 'ה-Genitofemoral n.', 'ה-Hypogastric plexus', 'ה-Obturator n.'], a: 0, ex: 'כל שרירי השכבה השטחית מעוצבבים מה-Pudendal n. ‏(S2–4){{C2|שקפים 43–45, 52}}.' },
-        { q: 'מה תפקיד ה-Anococcygeal lig. בזמן התרוקנות?', o: ['מקבע את הקיר האחורי של האנוס כדי שפי הטבעת יוכל להיפתח', 'סוגר את פי הטבעת', 'מעביר דם לגוף הדגדגן', 'מרים את צוואר השלפוחית'], a: 0, ex: 'הרצועה מקבעת את הקיר האחורי של האנוס כששרירי רצפת האגן מתרפים, כדי לאפשר לפי הטבעת להיפתח. היא גם בולמת זעזועים{{C2|שקף 49}}.' }
+        { q: 'מהו העצבוב של שרירי השכבה השטחית?', o: ['ה-Pudendal nerve ‏(S2–4)', 'ה-Genitofemoral nerve', 'ה-Hypogastric plexus', 'ה-Obturator nerve'], a: 0, ex: 'כל שרירי השכבה השטחית מעוצבבים מה-Pudendal nerve ‏(S2–4){{C2|שקפים 43–45, 52}}.' },
+        { q: 'מה תפקיד ה-Anococcygeal ligament בזמן התרוקנות?', o: ['מקבע את הקיר האחורי של האנוס כדי שפי הטבעת יוכל להיפתח', 'סוגר את פי הטבעת', 'מעביר דם לגוף הדגדגן', 'מרים את צוואר השלפוחית'], a: 0, ex: 'הרצועה מקבעת את הקיר האחורי של האנוס כששרירי רצפת האגן מתרפים, כדי לאפשר לפי הטבעת להיפתח. היא גם בולמת זעזועים{{C2|שקף 49}}.' }
       ]
     },
 
@@ -398,8 +398,8 @@ window.LESSONS['01'] = {
 
         { t: 'h', h: 'Support: תמיכת איברי האגן' },
         { t: 'table', head: ['מבנה', 'תפקיד'], rows: [
-          ['ה-Pubovesical lig.', 'שומרת על ההטיה הקדמית של השלפוחית{{C2|שקף 79}}'],
-          ['ה-Pubourethral lig.', 'מקבעת את הדופן הקדמית של השופכה כששרירי רצפת האגן מתרפים להתרוקנות{{C2|שקף 79}}'],
+          ['ה-Pubovesical ligament', 'שומרת על ההטיה הקדמית של השלפוחית{{C2|שקף 79}}'],
+          ['ה-Pubourethral ligament', 'מקבעת את הדופן הקדמית של השופכה כששרירי רצפת האגן מתרפים להתרוקנות{{C2|שקף 79}}'],
           ['ה-Urachus (בשקף: Uracus)', 'תומך בשלפוחית מלמעלה{{C2|שקף 79}}'],
           ['ה-ATFP וה-TALA', 'קשתות גידיות שמשתתפות בתמיכת השלפוחית והשופכה{{C2|שקפים 80–81}}']
         ] },
@@ -418,12 +418,12 @@ window.LESSONS['01'] = {
       ],
       quiz: [
         { q: 'מה מתאר ה-S של Sump-pump?', o: ['ניקוז נוזלים מהאזור', 'ייצוב הסקרום', 'שליטה על הסוגרים', 'תמיכה באיברים'], a: 0, ex: 'ה-Sump-pump הוא ניקוז נוזלים מהאזור{{C2|שקף 64}}.' },
-        { q: 'מהם שלושת הרכיבים של מערכת הסגירה של השופכה?', o: ['שריר משורטט, שריר חלק ואספקת הדם בתת-הרירית', 'ה-Detrusor, הטריגון וה-Ureters', 'ה-PC, ה-PR וה-IC', 'ה-Pubourethral lig., ה-ATFP וה-Perineal body'], a: 0, ex: 'השריר המשורטט, השריר החלק ואספקת הדם בתת-הרירית, וכל אחד תורם כשליש{{C2|שקף 72}}{{R18|"The Urinary Sphincteric Closure System"}}.' },
+        { q: 'מהם שלושת הרכיבים של מערכת הסגירה של השופכה?', o: ['שריר משורטט, שריר חלק ואספקת הדם בתת-הרירית', 'ה-Detrusor, הטריגון וה-Ureters', 'ה-PC, ה-PR וה-IC', 'ה-Pubourethral ligament, ה-ATFP וה-Perineal body'], a: 0, ex: 'השריר המשורטט, השריר החלק ואספקת הדם בתת-הרירית, וכל אחד תורם כשליש{{C2|שקף 72}}{{R18|"The Urinary Sphincteric Closure System"}}.' },
         { q: 'מאילו סיבים בנוי בעיקר השריר המשורטט של השופכה?', o: ['סיבי Type 1, איטיים', 'סיבי Type 2, מהירים', 'סיבי שריר חלק', 'סיבי קולגן'], a: 0, ex: 'ברובו סיבי Type 1, שמאפשרים טונוס קבוע{{C2|שקף 72}}.' },
         { q: 'מה קורה לרירית השופכה בהיעדר אסטרוגן?', o: ['היא אטרופית יותר ואוטמת פחות', 'היא מתעבה', 'אין לכך השפעה', 'היא הופכת לשריר'], a: 0, ex: 'אספקת הדם ברירית תלויה בהורמונים. בהיעדר אסטרוגן הרקמה אטרופית יותר{{C2|שקף 73}}.' },
         { q: 'למה מחובר הנרתיק ברמת התמיכה II לפי DeLancey?', o: ['לטרלית ל-Arcus tendineus ולפסיה של ה-LA', 'ל-Cardinal ligament', 'ל-Perineal body', 'לסקרום'], a: 0, ex: 'ברמה II השליש האמצעי מחובר לטרלית ל-Arcus tendineus ולפסיה של ה-LA{{R16|Abstract – Results}}.' },
         { q: 'בכמה מעלה כיווץ מקסימלי של ה-PC וה-PR את לחץ הסגירה בנרתיק?', o: ['ב-46%', 'ב-10%', 'ב-100%', 'ב-25%'], a: 0, ex: 'לפי המצגת: ב-46%{{C2|שקף 76}}.' },
-        { q: 'איזו רצועה מקבעת את הדופן הקדמית של השופכה בזמן התרוקנות?', o: ['ה-Pubourethral lig.', 'ה-Pubovesical lig.', 'ה-Urachus', 'ה-Round lig.'], a: 0, ex: 'ה-Pubourethral lig. מקבעת את הדופן הקדמית של השופכה כששרירי רצפת האגן מתרפים להתרוקנות{{C2|שקף 79}}.' },
+        { q: 'איזו רצועה מקבעת את הדופן הקדמית של השופכה בזמן התרוקנות?', o: ['ה-Pubourethral ligament', 'ה-Pubovesical ligament', 'ה-Urachus', 'ה-Round ligament'], a: 0, ex: 'ה-Pubourethral ligament מקבעת את הדופן הקדמית של השופכה כששרירי רצפת האגן מתרפים להתרוקנות{{C2|שקף 79}}.' },
         { q: 'לפי עקרון הערסל, מה סוגר את השופכה בזמן שיעול?', o: ['דחיסה שלה כנגד השכבה התומכת שמתחתיה', 'כיווץ הדטרוזור', 'הטריגון', 'פתיחת צוואר השלפוחית'], a: 0, ex: 'הלחץ מלמעלה דוחס את השופכה כנגד השכבה התומכת וסוגר אותה{{C2|שקף 77}}{{R17|Abstract – Results}}.' }
       ]
     }
@@ -434,16 +434,16 @@ window.LESSONS['01'] = {
     { f: 'External oblique מול Internal oblique: לאיזה צד הרוטציה?', b: 'ה-External: לצד הנגדי. ה-Internal: לאותו צד{{C1|שקף "קיר הבטן"}}' },
     { f: 'זווית הקשת הפובית: אישה מול גבר', b: 'אישה 80°–90°, גבר 50°–60° (לפי הטבלה בשקף 5){{C2|שקף 5}}' },
     { f: 'מהם המפרקים הסינוביאליים של האגן?', b: 'שני מפרקי ה-Sacro-iliac{{C2|שקף 7}}' },
-    { f: 'מה בונה את הדופן הלטרלית של האגן?', b: 'ה-Obturator internus, ה-Piriformis, ה-Sacrotuberous lig. וה-Sacrospinous lig.{{C2|שקף 11}}' },
+    { f: 'מה בונה את הדופן הלטרלית של האגן?', b: 'ה-Obturator internus, ה-Piriformis, ה-Sacrotuberous ligament וה-Sacrospinous ligament{{C2|שקף 11}}' },
     { f: 'מה מקודד ה-SRY?', b: 'את ה-TDF, שבזכותו הגונדה הופכת לאשך{{C1|שקף "קביעת מין הילוד"}}' },
     { f: 'AMH וטסטוסטרון: אילו תאים מייצרים כל אחד?', b: 'ה-AMH מתאי Sertoli, והטסטוסטרון מתאי Leydig{{C1|שקף "קביעת מין הילוד"}}' },
     { f: 'מה נוצר מצינורות מולר?', b: 'החצוצרות, הרחם והחלק העליון של הנרתיק{{R4|התמיינות איברי המין הפנימיים}}' },
     { f: 'מידות השפתיים הגדולות', b: 'אורך 7–9 ס"מ, רוחב 2–4 ס"מ{{C1|שקף "שפתיים גדולות"}}' },
-    { f: 'איזה עצב מעצבב את שריר ה-Dartos בשפתיים הגדולות?', b: 'ה-Genitofemoral n. ‏(L1–2){{C1|שקף "עצבוב שפתיים גדולות"}}' },
+    { f: 'איזה עצב מעצבב את שריר ה-Dartos בשפתיים הגדולות?', b: 'ה-Genitofemoral nerve ‏(L1–2){{C1|שקף "עצבוב שפתיים גדולות"}}' },
     { f: 'בלוטות ברתולין ו-Skene: איפה הן לפי "השעון"?', b: 'ברתולין בשעה 5 ו-7. Skene בשעה 1 ו-3{{C1|שקף "וסטיבול"}}' },
     { f: 'ה-Crura של הדגדגן נמצאות אינפריורית לאיזה שריר?', b: 'ל-Ischiocavernosus{{C1|שקף "דגדגן"}}' },
     { f: 'אורך הנרתיק וה-pH שלו', b: 'אורך 7–9 ס"מ, ו-pH של 3.5–4.5{{C1|שקפים "נרתיק"}}' },
-    { f: 'שלושת העצבובים של הנרתיק', b: 'סימפטטי מה-Hypogastric n., פאראסימפטטי מה-Sacral n., סומטי מה-Pudendal n.{{C1|שקף "נרתיק" (השני)}}' },
+    { f: 'שלושת העצבובים של הנרתיק', b: 'סימפטטי מה-Hypogastric nerve, פאראסימפטטי מה-Sacral nerve, סומטי מה-Pudendal nerve{{C1|שקף "נרתיק" (השני)}}' },
     { f: 'שלוש שכבות דופן הרחם', b: 'Perimetrium ‏(סרוזית), ‏Myometrium ‏(שריר, 1.5–2.5 ס"מ), ‏Endometrium ‏(רירית){{C1|שקף "מבנה הרחם"}}' },
     { f: 'רצועות הרחם: עליונות ותחתונות', b: 'עליונות: Broad ו-Round. תחתונות: Cardinal ו-Sacro-uterine{{C1|שקף "תמיכת הרחם"}}' },
     { f: 'הרחם בהריון: שבוע 12, שבוע 20, שבוע 40', b: 'בשבוע 12 יוצא מהאגן, בשבוע 20 מגיע לטבור, ובשבוע 40 ל-Xiphoid{{C1|שקף "הרחם ההריוני"}}' },
@@ -459,7 +459,7 @@ window.LESSONS['01'] = {
     { f: 'מה עושה ה-Perineal membrane?', b: 'תומכת בשופכה מקדימה ובנרתיק מאחור. "מחוררת" בפתחי הנרתיק והשופכה{{C2|שקף 37}}' },
     { f: 'מה נכנס ל-Perineal body?', b: 'ה-EAS, ה-Bulbocavernosus, ה-Superficial transverse perineal והממברנה הפרינאלית{{C2|שקף 42}}' },
     { f: 'תפקיד ה-Bulbospongiosus באישה', b: 'מצר את פתח הנרתיק (יחד עם ה-PR) ועוזר בזקפת הדגדגן{{C2|שקף 45}}' },
-    { f: 'עצבוב ה-LA מול השכבה השטחית', b: 'ה-LA: ה-LA nerve משורשי S(2)–3–4. השכבה השטחית: ה-Pudendal n. ‏(S2–4){{C2|שקף 52}}' },
+    { f: 'עצבוב ה-LA מול השכבה השטחית', b: 'ה-LA: ה-LA nerve משורשי S(2)–3–4. השכבה השטחית: ה-Pudendal nerve ‏(S2–4){{C2|שקף 52}}' },
     { f: 'חמשת ה-S', b: 'Sphincteric, ‏Support, ‏Stabilization, ‏Sexual, ‏Sump-pump{{C2|שקף 64}}' },
     { f: 'מבנה השריר המשורטט של השופכה', b: 'שני השלישים העליונים: Sphincter urethrae. השליש התחתון: Urethrovaginal sphincter ו-Compressor urethrae{{C2|שקף 68}}' },
     { f: 'שלושת השלישים של מערכת הסגירה', b: 'שריר משורטט, שריר חלק ואספקת דם בתת-הרירית{{C2|שקף 72}}{{R18|"The Urinary Sphincteric Closure System"}}' },
