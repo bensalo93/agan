@@ -62,39 +62,6 @@ window.DIAGRAMS = (function () {
       return svg(680, 470, b, 'גובה הרחם בשבועות ההריון');
     },
 
-    /* מבנה הרחם, חתך קדמי */
-    uterus() {
-      let b = '';
-      // חצוצרות
-      b += `<path d="M215 110 C170 90 120 95 80 120" fill="none" stroke="${C.muscle2}" stroke-width="10" stroke-linecap="round"/>`;
-      b += `<path d="M385 110 C430 90 480 95 520 120" fill="none" stroke="${C.muscle2}" stroke-width="10" stroke-linecap="round"/>`;
-      // פימבריה
-      for (let k = 0; k < 5; k++) { b += `<line x1="80" y1="120" x2="${55 - k * 2}" y2="${105 + k * 10}" stroke="${C.muscle2}" stroke-width="3"/><line x1="520" y1="120" x2="${545 + k * 2}" y2="${105 + k * 10}" stroke="${C.muscle2}" stroke-width="3"/>`; }
-      // שחלות
-      b += `<ellipse cx="110" cy="165" rx="30" ry="18" fill="${C.organ}"/><ellipse cx="490" cy="165" rx="30" ry="18" fill="${C.organ}"/>`;
-      // גוף הרחם (שכבות)
-      const body = 'M210 100 Q300 70 390 100 L360 250 Q330 280 300 285 Q270 280 240 250 Z';
-      b += `<path d="${body}" fill="${C.muscle}" stroke="${C.ink}" stroke-width="1.5"/>`;
-      b += `<path d="M245 118 Q300 102 355 118 L335 235 Q300 255 265 235 Z" fill="${C.muscle2}"/>`;
-      b += `<path d="M270 135 Q300 128 330 135 L315 225 Q300 235 285 225 Z" fill="#f3c9b8"/>`;
-      // צוואר + נרתיק
-      b += `<rect x="275" y="282" width="50" height="60" rx="10" fill="${C.muscle}" stroke="${C.ink}" stroke-width="1.5"/>`;
-      b += `<path d="M262 342 L338 342 L330 440 L270 440 Z" fill="${C.soft}" stroke="${C.ink}" stroke-width="1.5"/>`;
-      // תוויות
-      const L = (x1, y1, x2, y2, s, en) => `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${C.muted}"/>` + T(x2 + (x2 > 300 ? 55 : -55), y2 - 2, s, { fs: 13, fw: 700 }) + (en ? T(x2 + (x2 > 300 ? 55 : -55), y2 + 14, en, { fs: 11, c: C.muted, ltr: true }) : '');
-      b += L(300, 88, 300, 40, '', '') + T(300, 32, 'קרקעית – Fundus', { fs: 13, fw: 700 });
-      b += L(372, 170, 440, 230, 'גוף הרחם', 'Body');
-      b += L(300, 275, 440, 285, 'מיצר', 'Isthmus');
-      b += L(325, 315, 440, 335, 'צוואר הרחם', 'Cervix');
-      b += L(300, 410, 440, 420, 'נרתיק', 'Vagina');
-      b += L(110, 182, 120, 250, 'שחלה', 'Ovary');
-      b += L(150, 97, 150, 55, 'חצוצרה', 'Fallopian tube');
-      b += L(214, 150, 120, 320, 'Perimetrium', 'שכבה סרוזית חיצונית');
-      b += L(255, 170, 120, 370, 'Myometrium', 'שריר, 1.5–2.5 ס"מ');
-      b += L(285, 190, 120, 420, 'Endometrium', 'רירית');
-      return svg(600, 460, b, 'מבנה הרחם, החצוצרות והשחלות');
-    },
-
     /* טריגון בשלפוחית */
     trigone() {
       let b = `<path d="M90 60 Q250 10 410 60 Q460 170 380 260 Q300 320 250 330 Q200 320 120 260 Q40 170 90 60 Z" fill="${C.soft}" stroke="${C.ink}" stroke-width="2"/>`;
@@ -134,41 +101,6 @@ window.DIAGRAMS = (function () {
       b += `<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="${C.muted}"/></marker></defs>`;
       b += T(610, 85, 'עמוק', { fs: 12, c: C.muted }) + T(610, 385, 'שטחי', { fs: 12, c: C.muted });
       return svg(640, 395, b, 'ארבע השכבות של רצפת האגן מהעמוקה לשטחית');
-    },
-
-    /* שרירי ה-Levator ani – מבט מלמעלה */
-    levator() {
-      let b = '';
-      // מסגרת האגן
-      b += `<path d="M300 30 C460 30 560 140 560 260 C560 380 440 450 300 450 C160 450 40 380 40 260 C40 140 140 30 300 30 Z" fill="${C.bone}" stroke="${C.muted}" stroke-width="2"/>`;
-      b += `<path d="M300 60 C430 60 520 150 520 260 C520 370 420 425 300 425 C180 425 80 370 80 260 C80 150 170 60 300 60 Z" fill="${C.card}"/>`;
-      // ATLA
-      b += `<path d="M180 105 C120 170 100 240 115 320" fill="none" stroke="${C.ink}" stroke-width="3" stroke-dasharray="6 4"/><path d="M420 105 C480 170 500 240 485 320" fill="none" stroke="${C.ink}" stroke-width="3" stroke-dasharray="6 4"/>`;
-      // Coccygeus
-      b += `<path d="M115 330 Q200 380 285 420 L315 420 Q400 380 485 330 L470 360 Q390 405 315 435 L285 435 Q210 405 130 360 Z" fill="#9c7d6d"/>`;
-      // Iliococcygeus
-      b += `<path d="M118 315 C115 230 140 160 185 108 L245 112 C225 200 240 300 290 400 L300 405 L310 400 C360 300 375 200 355 112 L415 108 C460 160 485 230 482 315 Q400 370 315 412 L285 412 Q200 370 118 315 Z" fill="${C.muscle}" opacity=".75"/>`;
-      // Pubococcygeus
-      b += `<path d="M250 85 C215 170 225 290 292 405 L308 405 C375 290 385 170 350 85 L320 82 C340 170 330 260 300 330 C270 260 260 170 280 82 Z" fill="${C.muscle2}"/>`;
-      // Puborectalis sling
-      b += `<path d="M268 82 C240 170 250 275 300 300 C350 275 360 170 332 82 L318 82 C335 170 330 250 300 272 C270 250 265 170 282 82 Z" fill="#a8473a"/>`;
-      // פתחים
-      b += `<ellipse cx="300" cy="135" rx="9" ry="9" fill="${C.organ}" stroke="${C.ink}"/>`;
-      b += `<ellipse cx="300" cy="185" rx="15" ry="20" fill="${C.organ}" stroke="${C.ink}"/>`;
-      b += `<ellipse cx="300" cy="250" rx="15" ry="16" fill="#a7b892" stroke="${C.ink}"/>`;
-      // תוויות
-      b += T(300, 22, 'קדמי – Pubic symphysis', { fs: 13, fw: 700 });
-      b += T(300, 470, 'אחורי – Coccyx', { fs: 13, fw: 700 });
-      const lab = (x, y, s, col, tx, ty) => `<line x1="${x}" y1="${y}" x2="${tx}" y2="${ty}" stroke="${C.muted}"/>` + T(tx + (tx > 300 ? 58 : -58), ty + 4, s, { fs: 12.5, fw: 700, c: col, ltr: true });
-      b += lab(300, 135, 'Urethra', C.ink, 470, 60);
-      b += lab(312, 185, 'Vagina', C.ink, 500, 110);
-      b += lab(313, 250, 'Rectum', C.ink, 530, 175);
-      b += lab(320, 285, 'Puborectalis', '#a8473a', 560, 240);
-      b += lab(345, 200, 'Pubococcygeus', C.muscle, 60, 120);
-      b += lab(440, 300, 'Iliococcygeus', C.muscle, 560, 320);
-      b += lab(150, 360, 'Coccygeus', '#7d5f50', 50, 400);
-      b += lab(120, 220, 'ATLA', C.ink, 50, 230);
-      return `<svg viewBox="-130 0 880 480" role="img" aria-label="שרירי ה-Levator ani במבט מלמעלה" xmlns="http://www.w3.org/2000/svg">${b}</svg>`;
     },
 
     /* מערכת הסגירה של השופכה – שלושה שלישים */

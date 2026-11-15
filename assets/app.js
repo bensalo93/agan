@@ -77,8 +77,9 @@
       case 'table': return `<div class="block tbl"><table><thead><tr>${b.head.map(h => `<th>${R(h)}</th>`).join('')}</tr></thead><tbody>${b.rows.map(r => `<tr>${r.map(c => `<td>${R(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>${b.cap ? `<p class="muted" style="font-size:14px">${R(b.cap)}</p>` : ''}</div>`;
       case 'fig': {
         const svg = DIAGRAMS[b.d] ? DIAGRAMS[b.d]() : `<p class="muted">תרשים חסר: ${esc(b.d)}</p>`;
-        return `<figure>${svg}<figcaption>${R(b.cap)}</figcaption></figure>`;
+        return `<figure class="schema"><div class="badge schema-b">סכמה להמחשה בלבד – לא איור אנטומי. ציירתי אותה לפי המקורות שבהפניות, ואף מומחה לא בדק אותה.</div>${svg}<figcaption>${R(b.cap)}</figcaption></figure>`;
       }
+      case 'img': return `<figure class="real"><div class="badge real-b">איור אנטומי מספר לימוד שפורסם · נחלת הכלל</div><a href="${b.page}" target="_blank" rel="noopener"><img src="${b.src}" alt="${esc(b.alt)}" loading="lazy"></a><figcaption>${R(b.cap)}</figcaption></figure>`;
       case 'video': return `<figure><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/${b.yt}${b.start ? `?start=${b.start}` : ''}" title="${esc(b.title)}" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div><figcaption>${R(b.cap)}</figcaption></figure>`;
       default: return '';
     }

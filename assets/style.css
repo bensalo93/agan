@@ -95,3 +95,9 @@ svg text{font-family:Heebo,Arial,sans-serif}
 .hint-tap{font-size:13px;color:var(--muted)}
 @media (min-width:700px){ .grid.two{grid-template-columns:1fr 1fr} }
 [hidden]{display:none !important}
+
+.badge{font-size:13px;font-weight:700;border-radius:8px;padding:6px 10px;margin-bottom:8px;unicode-bidi:plaintext}
+.schema-b{background:var(--warn);color:var(--accent);border:1px dashed var(--accent)}
+.real-b{background:var(--soft);color:var(--brand)}
+figure.schema{border:2px dashed var(--accent)}
+figure.real img{width:100%;height:auto;display:block;background:#fff;border-radius:8px}

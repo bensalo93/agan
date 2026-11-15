@@ -4,7 +4,7 @@ window.LESSONS['01'] = {
   id: '01',
   title: 'אנטומיה של האגן ורצפת האגן',
   subtitle: 'מהבטן ועד ארבע השכבות של רצפת האגן ותפקידיה',
-  intro: 'השיעור מבוסס על שתי מצגות הקורס: "אנטומיה" (יחידות 1 ו-3–6) ו"היכרות עם רצפת האגן" (יחידות 1–2 ו-7–8). התמונות והאינפוגרפיקות מהמצגות לא שרדו בהמרה לטקסט, ולכן שורטטו כאן תרשימים סכמטיים במקומן. כל תרשים מפנה למקור שלו. השלמות שאינן מופיעות במצגות לקוחות ממקורות אקדמיים, ומסומנות בהפניה נפרדת.',
+  intro: 'השיעור מבוסס על שתי מצגות הקורס: "אנטומיה" (יחידות 1 ו-3–6) ו"היכרות עם רצפת האגן" (יחידות 1–2 ו-7–8). התמונות מהמצגות לא שרדו בהמרה לטקסט. במקומן יש באתר שני סוגי איורים: איורים אנטומיים מ-Gray’s Anatomy (1918), שהם נחלת הכלל ובדקתי בכל אחד את התוויות שמוזכרות בכיתוב; ותרשימים שציירתי בעצמי, שמסומנים במסגרת מקווקוות כ"סכמה להמחשה בלבד". השלמות שאינן מופיעות במצגות לקוחות ממקורות אקדמיים, ומסומנות בהפניה נפרדת.',
   sourcesIntro: 'המספור כאן הוא המספור של כפתורי ההפניה בטקסט. המצגות לא מקושרות כי הן חומר פרטי של הקורס. כל השאר מקושרים למקור המקורי.',
 
   sources: {
@@ -30,7 +30,11 @@ window.LESSONS['01'] = {
     R18: { type: 'מאמר סקירה', title: 'Functional Anatomy of the Female Pelvic Floor', cite: 'Ashton-Miller JA, DeLancey JOL. Ann N Y Acad Sci. 2007;1101:266-96. doi:10.1196/annals.1389.034', url: 'https://doi.org/10.1196/annals.1389.034' },
     R19: { type: 'מאמר סקירה', title: 'Why do women have stress urinary incontinence?', cite: 'DeLancey JOL. Neurourol Urodyn. 2010;29(S1):S13-S17. PMCID: PMC3360542.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3360542/' },
     R20: { type: 'אנציקלופדיה מקצועית (Physiopedia)', title: 'Overview of Female Pelvic Floor Muscle Anatomy and Physiology', cite: 'Physiopedia. ויקי מקצועי לפיזיותרפיה, לא עובר ביקורת עמיתים. כאן הוא משמש רק לרשימת התפקידים.', url: 'https://www.physio-pedia.com/Overview_of_Female_Pelvic_Floor_Muscle_Anatomy_and_Physiology' },
-    R21: { type: 'קריאה מומלצת במצגת (Physiopedia)', title: 'Pelvic Floor Anatomy', cite: 'Physiopedia. הקישור מופיע בשקף 63 כ"הסברים לקריאה בבית".', url: 'https://www.physio-pedia.com/Pelvic_Floor_Anatomy' }
+    R21: { type: 'קריאה מומלצת במצגת (Physiopedia)', title: 'Pelvic Floor Anatomy', cite: 'Physiopedia. הקישור מופיע בשקף 63 כ"הסברים לקריאה בבית".', url: 'https://www.physio-pedia.com/Pelvic_Floor_Anatomy' },
+    G1166: { type: 'איור מספר לימוד (נחלת הכלל)', title: 'Gray’s Anatomy, איור 1166: Sagittal section of the lower part of a female trunk, right segment', cite: 'Gray H. Anatomy of the Human Body. מהדורה 20, בעריכת Lewis WH. Philadelphia: Lea & Febiger; 1918. איור 1166 (בספר מיוחס ל-Testut). הסריקה מאוחסנת ב-Wikimedia Commons כנחלת הכלל.', url: 'https://commons.wikimedia.org/wiki/File:Gray1166.png' },
+    G1161: { type: 'איור מספר לימוד (נחלת הכלל)', title: 'Gray’s Anatomy, איור 1161: Uterus and right broad ligament, seen from behind', cite: 'Gray H. Anatomy of the Human Body. מהדורה 20. Philadelphia: Lea & Febiger; 1918. איור 1161. מאוחסן ב-Wikimedia Commons כנחלת הכלל.', url: 'https://commons.wikimedia.org/wiki/File:Gray1161.png' },
+    G404: { type: 'איור מספר לימוד (נחלת הכלל)', title: 'Gray’s Anatomy, איור 404: Left Levator ani from within', cite: 'Gray H. Anatomy of the Human Body. מהדורה 20. Philadelphia: Lea & Febiger; 1918. איור 404, מאת Henry Vandyke Carter. מאוחסן ב-Wikimedia Commons כנחלת הכלל.', url: 'https://commons.wikimedia.org/wiki/File:Gray404.png' },
+    G408: { type: 'איור מספר לימוד (נחלת הכלל)', title: 'Gray’s Anatomy, איור 408: Muscles of the female perineum', cite: 'Gray H. Anatomy of the Human Body. מהדורה 20. Philadelphia: Lea & Febiger; 1918. איור 408. מאוחסן ב-Wikimedia Commons כנחלת הכלל. גם המצגת משתמשת באיור הזה (שקף 41, "Gray408").', url: 'https://commons.wikimedia.org/wiki/File:Gray408.png' }
   },
 
   units: [
@@ -50,6 +54,7 @@ window.LESSONS['01'] = {
         ] },
         { t: 'h', h: 'מה נמצא בתוך האגן' },
         { t: 'p', h: 'באגן נמצאים הקצה הדיסטלי של מערכת השתן, איברי מערכת הרבייה והקצה הדיסטלי של מערכת העיכול{{C2|שקף 15 – "תכולת האגן"}}.' },
+        { t: 'img', src: 'https://upload.wikimedia.org/wikipedia/commons/7/70/Gray1166.png', page: 'https://commons.wikimedia.org/wiki/File:Gray1166.png', alt: 'חתך סגיטלי של אגן אישה', cap: 'חתך סגיטלי של אגן אישה{{G1166|איור 1166}}. מלפנים לאחור רואים את השלפוחית (Bladder), את הרחם (Uterus) ואת הנרתיק (Vagina), ומאחוריהם את הרקטום (Rectum). מסומנים גם ה-Symphysis, ה-Sigmoid colon, הדגדגן והשפתיים. התוויות באנגלית הן מהאיור המקורי. אפשר ללחוץ על האיור כדי לפתוח אותו בגודל מלא.' },
         { t: 'table', head: ['מערכת', 'איברים באגן'], rows: [
           ['מערכת המין והרבייה', 'רחם וטפולות (חצוצרות ושחלות), נרתיק (Vagina){{C1|שקף "אברי האגן"}}'],
           ['מערכת השתן (דרכי השתן התחתונות)', 'שלפוחית (Bladder), שופכה (Urethra){{C1|שקף "אברי האגן"}}'],
@@ -199,7 +204,7 @@ window.LESSONS['01'] = {
           'הוא מחולק לשלושה חלקים: Body, ‏Isthmus ו-Cervix{{C1|שקף "רחם"}}.',
           'משני צדדיו הוא מוקף ב-Broad ligament, ולחלקו העליון מחוברות החצוצרות{{C1|שקף "רחם"}}.'
         ] },
-        { t: 'fig', d: 'uterus', cap: 'תרשים סכמטי, לא בקנה מידה. נבנה לפי השקפים "רחם", "מבנה הרחם", "חצוצרות" ו"שחלות"{{C1|שקפים "רחם", "מבנה הרחם", "חצוצרות", "שחלות"}}.' },
+        { t: 'img', src: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Gray1161.png', page: 'https://commons.wikimedia.org/wiki/File:Gray1161.png', alt: 'הרחם והרצועה הרחבה הימנית במבט מאחור', cap: 'הרחם והרצועה הרחבה הימנית, במבט מאחור. הרצועה הרחבה פרושה, והשחלה מוטה כלפי מטה{{G1161|איור 1161}}. מסומנים באיור: הרחם (Uterus), החצוצרה (Uterine tube) והפימבריות שבקצה שלה, השחלה (Ovary) והרצועה שלה, ה-Broad ligament, כלי הדם של השחלה, הנרתיק (Vagina) ופתח הרחם החיצוני. האיור לא מראה את שכבות דופן הרחם, ולכן הן מופיעות למטה רק בטקסט.' },
         { t: 'p', h: 'לדופן הרחם שלוש שכבות: Serous ‏(Perimetrium), ‏Muscular ‏(Myometrium, בעובי 1.5–2.5 ס"מ) ו-Mucous ‏(Endometrium). בשריר יש שכבה חיצונית של סיבים אורכיים, ושכבה פנימית של סיבים בכיוונים שונים שמתכווצים בעוצמה בצירים{{C1|שקף "מבנה הרחם"}}.' },
         { t: 'ul', items: [
           'האנדומטריום משתנה מהבגרות ועד המנופאוזה, בהשפעה הורמונלית של השחלות{{C1|שקף "מבנה הרחם" (המשך)}}.',
@@ -298,7 +303,7 @@ window.LESSONS['01'] = {
         { t: 'h', h: 'שכבה 2: שרירי ה-Levator ani' },
         { t: 'p', h: 'ה-Levator ani בנוי משלושה חלקים: Puborectalis, ‏Pubococcygeus ו-Iliococcygeus. יחד עם ה-Coccygeus הוא חלק מרצפת האגן{{R2|Introduction}}. בספרות האנטומית אין הסכמה מלאה על אופן החלוקה של ה-LA{{R2|Structure and Function}}. גם המצגת מציינת שה-Coccygeus "לא תמיד נחשב כחלק מה-LA"{{C2|שקף 26}}.' },
         { t: 'p', h: 'בשכבה הזאת יש שני פתחים: ה-Urogenital hiatus, שנקרא גם Levator ani hiatus, וה-Rectal hiatus ‏(Ano-rectal){{C2|שקף 22}}.' },
-        { t: 'fig', d: 'levator', cap: 'תרשים סכמטי במבט מלמעלה, לא בקנה מידה{{C2|שקפים 21–28}}{{R2|Introduction}}.' },
+        { t: 'img', src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gray404.png', page: 'https://commons.wikimedia.org/wiki/File:Gray404.png', alt: 'ה-Levator ani השמאלי במבט מבפנים', cap: 'ה-Levator ani השמאלי, במבט מתוך האגן{{G404|איור 404}}. מסומנים באיור: ה-Levator ani, ה-Coccygeus, ה-Piriformis (בכתיב הישן Pyriformis), ה-Obturator fascia, ה-Pubis וה-Anococcygeal raphe. <b>שתי הסתייגויות:</b> האגן באיור הוא של גבר, ומסומנת בו הפרוסטטה. בנוסף, ה-LA מצויר כשריר אחד, בלי החלוקה ל-Puborectalis, ‏Pubococcygeus ו-Iliococcygeus. את החלוקה הזאת מפרטת הטבלה שלמטה.' },
         { t: 'note', h: 'בקובץ שהומר נעלמו שמות השרירים בשקפים 23–26. השיוך בטבלה נעשה לפי התוכן: שקף 23 זהה בתוכנו לשקף 31, שכותרתו Puborectalis. שקף 25 זהה לשקף 32, שכותרתו Iliococcygeus. שקף 26 הוא ה-Coccygeus, כי כתוב בו שאינו תמיד חלק מה-LA ושהוא חופף ל-Sacrospinous lig. שקף 24 הוא לכן ה-Pubococcygeus. כדאי לוודא את השיוך מול המצגת המקורית{{C2|שקפים 23–26, 31–32}}.' },
         { t: 'table', head: ['שריר', 'תחל', 'אחז', 'תפקיד', 'עצבוב'], rows: [
           ['ה-Puborectalis{{C2|שקפים 23, 31}}', 'החלק האחורי של ה-Pubis', 'מאחורי הרקטום. מתחבר גם לסוגר החיצוני של השופכה (EUS) ולסוגר החיצוני של האנוס (EAS)', 'שליטה על הזווית האנורקטלית. מהווה חלק מה-External anal sphincter', 'סומטי (LA n. ו-Pudendal), וגם רפלקסיבי-אוטונומי בעלייה פתאומית של הלחץ התוך-בטני'],
@@ -321,6 +326,7 @@ window.LESSONS['01'] = {
 
         { t: 'h', h: 'שכבה 4: השכבה השטחית' },
         { t: 'p', h: 'בחלק הקדמי של השכבה השטחית, התורמים העיקריים הם ה-Bulbospongiosus וה-Ischiocavernosus. בחלק האחורי השטחי נמצא ה-External anal sphincter{{R13|Anatomy and Function}}.' },
+        { t: 'img', src: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Gray408.png', page: 'https://commons.wikimedia.org/wiki/File:Gray408.png', alt: 'שרירי הפרינאום באישה', cap: 'שרירי הפרינאום באישה, במבט מלמטה{{G408|איור 408}}. מסומנים באיור: ה-Bulbocavernosus, ה-Ischiocavernosus, ה-Transversus perinaei (השם הישן של ה-Superficial transverse perineal), ה-Levator ani, ה-Sphincter ani externus וה-Gluteus maximus, וכן הדגדגן, השופכה, הנרתיק ופי הטבעת. זה האיור שמופיע במצגת בשקף 41{{C2|שקף 41 ("Gray408")}}.' },
         { t: 'ul', items: [
           '<b>ה-Perineal body</b> הוא מסה של רקמת חיבור בין האנוס לנרתיק. הוא מקבל סיבים מה-External anal sphincter, מה-Bulbocavernosus, מה-Superficial transverse perineal ומהממברנה הפרינאלית, ותומך בקיר האחורי של הנרתיק{{C2|שקף 42}}. ה-Perineal body חיוני לשלמות רצפת האגן, במיוחד אצל נשים{{R14|Introduction}}.'
         ] },
